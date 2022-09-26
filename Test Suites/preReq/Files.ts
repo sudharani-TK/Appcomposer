@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Files</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>3c6a02ce-f357-4b7d-a403-09647c461139</testSuiteGuid>
+   <testCaseLink>
+      <guid>2442463e-d989-41d6-9c88-58119e844e51</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/PreReq/Pre-Req-Script-FileOps</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ee8c6b5b-4cd6-4f2f-a3ea-9d5457cde594</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>9e02443f-7bc7-4a60-a9ca-7dea0ebfdc7e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4263193b-a9e9-4bee-9011-724d4828fb75</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PreReq/Pre-Req-GenericActions</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>SCRIPT_VARIABLE</type>
+         <value>&quot;Files&quot;</value>
+         <variableId>05d426bf-c5e1-4fda-b00f-022bbf0e193f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17e8bb60-f65f-41c8-aa10-bfbe20b0d480</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0489e391-301f-4e64-8b9d-f10b5a6d20ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PreReq/Pre-Req-Script-FolderOps</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>97df21b5-186f-4009-8bba-9433f9ed2dd4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a67f2e1f-7e28-4689-b63e-465081eec7b0</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

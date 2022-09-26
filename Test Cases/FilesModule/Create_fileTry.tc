@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_fileTry</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1cf750ce-05e8-4b11-8b06-ba78536bc79e</testCaseGuid>
+   <variable>
+      <defaultValue>'Big.txt'</defaultValue>
+      <description></description>
+      <id>f92db144-c6dd-4464-9a07-713bd2d6326e</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Create File - list view'</defaultValue>
+      <description></description>
+      <id>c06d3fdb-0f93-40df-b409-09f3f5cd0b89</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Positive'</defaultValue>
+      <description></description>
+      <id>2f903eb8-d348-4a52-8f85-c694b409fdee</id>
+      <masked>false</masked>
+      <name>userChoice</name>
+   </variable>
+</TestCaseEntity>

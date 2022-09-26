@@ -1,0 +1,4 @@
+Module=AdminTestcases
+csvfile=C:/Acc-master/Acc-master/Reports/20220817_202743/AdminTestcases/20220817_202743/20220817_202743.csv
+browser=FireFox
+reportName=AdminTestcases_FireFox_17082022_202752.html

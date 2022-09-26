@@ -1,0 +1,4 @@
+Module=JM
+csvfile=C:/Acc-master/Acc-master/Reports/20220816_180004/preReq/JM/20220816_180004/20220816_180004.csv
+browser=Chrome
+reportName=JM_Chrome_16082022_180012.html

@@ -1,0 +1,4 @@
+Module=ClusterRegistration
+csvfile=C:/Acc-master/Acc-master/Reports/20220818_084620/ClusterRegistration/20220818_084620/20220818_084620.csv
+browser=FireFox
+reportName=ClusterRegistration_FireFox_18082022_084628.html

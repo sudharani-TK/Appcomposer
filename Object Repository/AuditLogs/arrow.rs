@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>arrow</name>
+   <tag></tag>
+   <elementGuidId>ab1f4c13-392d-4e07-b08a-def872718a63</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.rw-i.rw-i-chevron-left</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;from_date_date&quot;)/div[@class=&quot;rw-calendar-header&quot;]/button[@class=&quot;rw-calendar-btn-left rw-btn rw-btn-primary&quot;]/span[@class=&quot;rw-i rw-i-chevron-left&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>id(&quot;from_date_date&quot;)/div[@class=&quot;rw-calendar rw-widget&quot;]/div[@class=&quot;rw-calendar-header&quot;]/button[@class=&quot;rw-calendar-btn-left rw-calendar-btn rw-btn&quot;]/svg[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>rw-i rw-i-chevron-left</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;from_date_date&quot;)/div[@class=&quot;rw-calendar-header&quot;]/button[@class=&quot;rw-calendar-btn-left rw-btn rw-btn-primary&quot;]/span[@class=&quot;rw-i rw-i-chevron-left&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='from_date_date']/div/button/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button/span</value>
+   </webElementXpaths>
+</WebElementEntity>

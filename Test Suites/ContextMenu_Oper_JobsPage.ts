@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ContextMenu_Oper_JobsPage</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>78192a4e-82aa-453c-8e51-fa107778e53a</testSuiteGuid>
+   <testCaseLink>
+      <guid>a7eeee82-e14b-43b0-bc23-532888974518</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JobMonitoring/Jobdetailspage_context menu_Operations</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3f2e11ba-9583-45d1-a426-b9e900a66d4c</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataContextMenu_Oper_JobsPage</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3f2e11ba-9583-45d1-a426-b9e900a66d4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobState</value>
+         <variableId>4f7eb206-38bb-4308-8157-d50cfbb0895f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f2e11ba-9583-45d1-a426-b9e900a66d4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobAction</value>
+         <variableId>23ae062a-0999-407b-9ee9-a19105b73f6a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f2e11ba-9583-45d1-a426-b9e900a66d4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>7d0bc6fc-3ed2-43ad-8f47-69c07f8cf9eb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3f2e11ba-9583-45d1-a426-b9e900a66d4c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userChoice</value>
+         <variableId>e8d4e636-42e2-4168-8631-e897b1cf5cfb</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

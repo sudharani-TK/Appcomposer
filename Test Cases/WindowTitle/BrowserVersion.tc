@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BrowserVersion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fc56a56-fa23-4864-a238-a789b016b5f1</testCaseGuid>
+   <variable>
+      <defaultValue>'Logout'</defaultValue>
+      <description></description>
+      <id>4601ff3c-2fec-4c45-a234-b1a99245f66f</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>JobColumnVerification</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7d58b4c-5fba-4142-824b-79efbb28f962</testCaseGuid>
+   <variable>
+      <defaultValue>'Running'</defaultValue>
+      <description></description>
+      <id>b717dc8a-b8de-44cd-bde5-6c2f3419754b</id>
+      <masked>false</masked>
+      <name>jobState</name>
+   </variable>
+   <variable>
+      <defaultValue>'Terminate'</defaultValue>
+      <description></description>
+      <id>92cfa93b-f45c-4806-b38e-d3069f59b16b</id>
+      <masked>false</masked>
+      <name>jobAction</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test Case to verify upload zip file in Runnin Folder'</defaultValue>
+      <description></description>
+      <id>cd27047a-f290-4db7-a132-87197302a1fb</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'JobsModule.zip'</defaultValue>
+      <description></description>
+      <id>c562e8d8-b57e-447b-a968-93b5d778e6ca</id>
+      <masked>false</masked>
+      <name>ToUpload</name>
+   </variable>
+</TestCaseEntity>

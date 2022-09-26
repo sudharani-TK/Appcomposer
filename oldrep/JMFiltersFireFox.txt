@@ -1,0 +1,4 @@
+Module=JMFilters
+csvfile=C:/Acc-master/Acc-master/Reports/20220819_113114/Regression/JMFilters/20220819_113114/20220819_113114.csv
+browser=FireFox
+reportName=JMFilters_FireFox_19082022_113123.html

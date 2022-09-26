@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tryOutPAW</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5ef5cfe-55f6-48d9-b904-fce1815ca11d</testCaseGuid>
+   <variable>
+      <defaultValue>'tile view'</defaultValue>
+      <description></description>
+      <id>bbd9ba5f-84a7-45e3-a94c-0099b8a6e23b</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'page'</defaultValue>
+      <description></description>
+      <id>be80990a-7bbe-448f-bc0b-d8a7e1b7ca40</id>
+      <masked>false</masked>
+      <name>userChoice</name>
+   </variable>
+</TestCaseEntity>

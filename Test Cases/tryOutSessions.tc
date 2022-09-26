@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tryOutSessions</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d89d8c3-03d1-4f32-b857-28df35d27ddd</testCaseGuid>
+   <variable>
+      <defaultValue>'Sesions Check'</defaultValue>
+      <description></description>
+      <id>abcc11e4-b678-49bc-815d-4b6a215de3b0</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'runningFolder_download_btn'</defaultValue>
+      <description></description>
+      <id>659d7186-5463-4473-a1c9-1fcae716bae3</id>
+      <masked>false</masked>
+      <name>sessionOps</name>
+   </variable>
+</TestCaseEntity>

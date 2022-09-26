@@ -1,0 +1,4 @@
+Module=JM
+csvfile=C:/Acc-master/Acc-master/Reports/20220819_111900/preReq/JM/20220819_111900/20220819_111900.csv
+browser=FireFox
+reportName=JM_FireFox_19082022_111907.html

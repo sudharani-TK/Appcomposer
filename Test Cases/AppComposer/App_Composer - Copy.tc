@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>App_Composer - Copy</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5a532582-80c6-418e-8a6f-fe82ae00feba</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d1d8c97f-e062-43f5-ad31-4b6e5afdef51</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c11a6892-b7a1-4701-a67b-6feb62b87a13</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4f47c88-d8fe-4e23-b1de-41c81a3c9a5e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13b698b7-ba92-49f4-8b9b-0c62d46466ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a1a4e39b-1012-45e2-866d-9ef21df1e20b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d786229d-71a7-4567-ad3a-f19aacacac9f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Add user'</defaultValue>
+      <description></description>
+      <id>d1d8c97f-e062-43f5-ad31-4b6e5afdef51</id>
+      <masked>false</masked>
+      <name>TestCaseName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Input type'</defaultValue>
+      <description></description>
+      <id>c11a6892-b7a1-4701-a67b-6feb62b87a13</id>
+      <masked>false</masked>
+      <name>userChoice</name>
+   </variable>
+   <variable>
+      <defaultValue>'Test@123File'</defaultValue>
+      <description></description>
+      <id>f4f47c88-d8fe-4e23-b1de-41c81a3c9a5e</id>
+      <masked>false</masked>
+      <name>app</name>
+   </variable>
+   <variable>
+      <defaultValue>'sh Running.sh'</defaultValue>
+      <description></description>
+      <id>13b698b7-ba92-49f4-8b9b-0c62d46466ad</id>
+      <masked>false</masked>
+      <name>exec</name>
+   </variable>
+   <variable>
+      <defaultValue>'.sh'</defaultValue>
+      <description></description>
+      <id>a1a4e39b-1012-45e2-866d-9ef21df1e20b</id>
+      <masked>false</masked>
+      <name>input</name>
+   </variable>
+   <variable>
+      <defaultValue>'100'</defaultValue>
+      <description></description>
+      <id>d786229d-71a7-4567-ad3a-f19aacacac9f</id>
+      <masked>false</masked>
+      <name>cores</name>
+   </variable>
+</TestCaseEntity>
