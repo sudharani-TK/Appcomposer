@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'demo')]</value>
+         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//div[(text() = 'demo' or . = 'demo')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>a3b2ab5b-d8d3-49fa-854e-1eeeacb9ae1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,5 +30,6 @@
       <name>text</name>
       <type>Main</type>
       <value>demo</value>
+      <webElementGuid>24c63fed-2528-4a73-8f0d-1efd82a30c61</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>16d8cc00-f15c-45d2-b34e-f9c1a0f7a3fd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Cluster_Registration/Cluster_Creation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -78,7 +78,7 @@
    <testCaseLink>
       <guid>52b25edc-fd2d-4c56-8538-bd2da41216e0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Cluster_Registration/Cluster_Edit</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -1,6 +1,6 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import java.awt.Robot as Robot
+
 import java.awt.event.KeyEvent as KeyEvent
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebDriver as WebDriver
@@ -64,7 +64,6 @@ WebUI.delay(2)
 
 def TCName = TestCaseName + ' - through top menu icons'
 
-Robot rob = new Robot()
 
 TestObject newFileObj
 
@@ -84,7 +83,7 @@ try {
 
     switch (userChoice) {
         case 'ip add':
-            String value = '10.75.22.91'
+            String value = '10.75.22.142'
 
             WebUI.delay(2)
 

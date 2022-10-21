@@ -17,17 +17,17 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import java.awt.Robot
+
 import internal.GlobalVariable
 import com.relevantcodes.extentreports.LogStatus
-import java.awt.event.KeyEvent as KeyEvent
+import  org.openqa.selenium.Keys
 
 public class role {
 
 	@Keyword
 	def add_role(String roleid, extentTest) {
 		WebUI.delay(2)
-		Robot rob = new Robot()
+
 		WebUI.click(findTestObject('Access_Management/Add_rolebutton'))
 
 		WebUI.click(findTestObject('Access_Management/Edit_role'))
@@ -37,8 +37,7 @@ public class role {
 		//WebUI.click(findTestObject('Access_Management/Edit_roleid'))
 		WebUI.delay(3)
 		WebUI.doubleClick(findTestObject('Object Repository/AppComposer/Text'))
-		rob.keyPress(KeyEvent.VK_BACK_SPACE)
-		rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+		WebUI.sendKeys(findTestObject('Object Repository/AppComposer/Text'), Keys.chord(Keys.BACK_SPACE))
 		WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), '')
 		WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), roleid)
 		extentTest.log(LogStatus.PASS, 'Add roleid name -' + roleid)

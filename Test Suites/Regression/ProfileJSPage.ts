@@ -21,7 +21,7 @@
          <id>8b5a8b59-f1b5-4c1b-9001-f7276c0d1bed</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>13</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForProfiles</testDataId>
       </testDataLink>
@@ -124,7 +124,7 @@
          <combinationType>ONE</combinationType>
          <id>1a6283f3-d580-4127-81a6-5313c5aec88a</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>SPECIFIC</iterationType>
             <value>1-20</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForProfiles</testDataId>

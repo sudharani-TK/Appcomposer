@@ -516,7 +516,7 @@
          <id>56700316-c5d8-48b6-adf3-143c8642f15a</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1-4</value>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataAccessMangNew</testDataId>
       </testDataLink>
@@ -561,7 +561,7 @@
    <testCaseLink>
       <guid>3c4f21ce-4d8e-4c15-a790-96a0aaa0b256</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Access_Management/Access_managementNewtest cases 2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -52,7 +52,7 @@ try
 		isElementPresnt=WebUI.verifyElementPresent(findTestObject('Object Repository/JobSubmissionForm/Title_Reset'),3,FailureHandling.CONTINUE_ON_FAILURE)
 		if(isElementPresnt)
 		{
-			WebUI.verifyElementPresent(findTestObject('Object Repository/JobSubmissionForm/Text_Reset'),3)
+			if(WebUI.verifyElementPresent(findTestObject('Object Repository/JobSubmissionForm/Text_Reset'),3,FailureHandling.CONTINUE_ON_FAILURE))
 			WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Yes'))
 		}
 

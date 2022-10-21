@@ -5,6 +5,48 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>db6a1a1b-9be1-48f8-9dec-d49fad8cfb69</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>95a9e762-0777-471f-be10-b482e3aee3c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9c79e447-0846-42be-b9ed-38152b9c1a48</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f93c1877-9b01-455c-8d22-cd6af0ad20e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>61cc681e-53f9-423c-84fd-f286fa0202e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c6e3efda-4d20-4ee8-9257-9ca5b0c4af4c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0eb799de-008d-44d9-ab7d-c24efd8e30c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>731ae8a5-0351-4126-a92c-0ec5b34713f9</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'dynIcn'</defaultValue>
       <description></description>

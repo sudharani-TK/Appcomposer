@@ -15,7 +15,7 @@
       <guid>35c6e4b8-35af-4402-ae99-76a4db7f4a9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/PreReq/Pre-Req-Script-FileOps</testCaseId>
+      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-Script-FileOps</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

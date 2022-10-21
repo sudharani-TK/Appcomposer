@@ -1,6 +1,6 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import java.awt.Robot as Robot
+
 
 import org.openqa.selenium.Keys as Keys
 
@@ -26,7 +26,7 @@ def location = navLocation + '/ForProfiles/InputDeck/'
 String proElement
 TestObject newProObj
 TestObject newFileObj
-Robot rob = new Robot()
+
 
 WebUI.delay(2)
 

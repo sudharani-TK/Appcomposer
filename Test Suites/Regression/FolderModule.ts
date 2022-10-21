@@ -15,7 +15,8 @@
       <guid>7d489355-efb5-4a58-b6c7-25c152ea7dfd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/PreReq/Pre-Req-Script-FolderOps</testCaseId>
+      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-Script-FolderOps</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -43,6 +44,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForCreateFolder</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>6541c348-a0b0-4930-97b0-a595b3f80069</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -76,6 +78,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForCreateFolder</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>f91c56a7-e479-406e-bb2d-780364943bf5</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -109,6 +112,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>9b4bff4c-e843-4cec-b52c-317bcba61bb5</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -148,6 +152,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFolderOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>f8f3f463-05a2-4932-bb97-7e8a6fcd9a15</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -187,6 +192,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataFilesCols</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>f38659c8-9dd3-4005-af6c-259a284b8e38</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -229,6 +235,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/FileSearch</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -253,6 +260,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/UnzipOnUpload</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -277,6 +285,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/EditFilePath-FilesTab</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

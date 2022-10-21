@@ -15,7 +15,8 @@
       <guid>e2c5a4c3-315b-4ea1-8328-3fb7a83a9824</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PreReq/Pre-Req-Script-For-JobMonitoring-MultiFileOps</testCaseId>
+      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-Script-For-JobMonitoring-MultiFileOps</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7c2060f4-e812-439e-b73a-bf7da80ede90</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobSubmission/MultipleJobSubmissions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -183,7 +183,7 @@
    <testCaseLink>
       <guid>5b4770fe-35f2-49d1-aa13-fa1f189dd0ba</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-FolderOperations-Topmenuicons</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

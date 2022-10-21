@@ -16,6 +16,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/Create_folder_old</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>SCRIPT_VARIABLE</type>
@@ -40,6 +41,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
       <testCaseId>Test Cases/FilesModule/Create_folder_old</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>SCRIPT_VARIABLE</type>
@@ -73,6 +75,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataJSMultiFileFolderOps</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>7d38a3ce-5564-4458-95dc-61fce07b5bff</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -118,6 +121,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataHiddenFiles</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>6be89bec-cb21-4b29-8c05-fed75c133858</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -169,6 +173,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/ProfileCreation</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>9f9364aa-dda8-4ae4-9b88-eb29bae9a9f3</testDataLinkId>
          <type>DATA_COLUMN</type>

@@ -1,6 +1,6 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import java.awt.Robot
+
 
 import org.openqa.selenium.By
 import org.openqa.selenium.Keys
@@ -9,6 +9,7 @@ import org.openqa.selenium.WebElement
 import org.openqa.selenium.remote.RemoteWebDriver
 import org.openqa.selenium.remote.RemoteWebElement
 import org.openqa.selenium.support.events.EventFiringWebDriver
+import org.openqa.selenium.JavascriptExecutor;
 
 import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.exception.StepErrorException
@@ -36,7 +37,7 @@ CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
 def navLocation = CustomKeywords.'generateFilePath.filePath.execLocation'()
 //====================================================================================
 
-Robot rob = new Robot()
+
 def isProfilePersent
 
 WebUI.delay(2)
@@ -146,9 +147,13 @@ try
 
 	def saveBtn = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('NewJobPage/Btn_Save As'),2,extentTest,'Save Profile Btn ')
 
+
 	if(saveBtn)
 	{
-		WebUI.click(findTestObject('NewJobPage/Btn_Save As'))
+		//WebUI.click(findTestObject('NewJobPage/Btn_Save As'))
+		WebElement ele1 = driver.findElement(By.xpath("//button[@id='save_profile_btn']"))
+		JavascriptExecutor jse1 = (JavascriptExecutor)driver;
+		jse1.executeScript("arguments[0].click()", ele1);
 		WebUI.delay(3)
 	}
 
@@ -221,14 +226,20 @@ try
 
 		}
 		else
-		{	WebUI.click(findTestObject('Object Repository/NewJobPage/GenericProfile'))
+		{
+			WebUI.delay(2)
+			WebUI.waitForElementClickable(findTestObject('Object Repository/NewJobPage/GenericProfile'), 10)
+			//	WebUI.click(findTestObject('Object Repository/NewJobPage/GenericProfile'))
+				WebElement ele = driver.findElement(By.xpath("//span[@title='Generic Profile']"));
+				JavascriptExecutor jse = (JavascriptExecutor)driver;
+				jse.executeScript("arguments[0].click()", ele);
 			isProfilePersent = WebUI.verifyElementPresent(LeftNavAppIdentifier, 5)
 
 			if (isProfilePersent) {
 
 				WebUI.waitForElementPresent(LeftNavAppIdentifier, 5)
 				WebUI.click(LeftNavAppIdentifier)
-				if(WebUI.verifyElementPresent(findTestObject('Object Repository/JobSubmissionForm/Title_Reset'),3))
+				if(WebUI.verifyElementPresent(findTestObject('Object Repository/JobSubmissionForm/Title_Reset'),10))
 				{
 					WebUI.verifyElementPresent(findTestObject('Object Repository/JobSubmissionForm/Text_Reset'),3)
 					WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Yes'))

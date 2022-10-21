@@ -75,7 +75,7 @@ try
 		/*WebUI.click(findTestObject('Cluster_Registration/Password'))
 		WebUI.setText(findTestObject('Cluster_Registration/Password'),password)
 		extentTest.log(LogStatus.PASS, 'Add password')*/
-		
+		WebUI.delay(3)
 		WebUI.click(findTestObject('Cluster_Registration/Addrootdir'))
 			
         WebUI.click(findTestObject('Cluster_Registration/root_dir1'))

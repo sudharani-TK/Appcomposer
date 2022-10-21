@@ -66,7 +66,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Windows'</initValue>
+      <initValue>'Linux'</initValue>
       <name>G_HostMachine</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

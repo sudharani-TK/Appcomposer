@@ -15,7 +15,7 @@
       <guid>7c271771-2901-4fe6-9899-710973ae9cea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/PreReq/Pre-Req-Script-For-JobMonitoring-Ops</testCaseId>
+      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-Script-For-JobMonitoring-Ops</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -58,7 +58,7 @@
       <guid>6eed1f39-ce0d-428c-9205-a960118aeaf6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/PreReq/Pre-Req-Script-For-JobMonitoring-AllJobs</testCaseId>
+      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-Script-For-JobMonitoring-AllJobs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

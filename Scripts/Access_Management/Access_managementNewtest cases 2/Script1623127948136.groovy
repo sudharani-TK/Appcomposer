@@ -1,8 +1,7 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
-import java.awt.Robot
-import java.awt.event.KeyEvent as KeyEvent
+
 
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.remote.RemoteWebDriver
@@ -16,6 +15,7 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus
+import  org.openqa.selenium.Keys
 
 import internal.GlobalVariable as GlobalVariable
 
@@ -63,8 +63,7 @@ CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
 String screenShot='ExtentReports/'+TestCaseName+userChoice+GlobalVariable.G_Browser+'.png'
 def result
 
-WebUI.delay(2)
-Robot rob = new Robot()
+
 
 try
 {
@@ -93,8 +92,8 @@ try
 			//WebUI.click(findTestObject('Access_Management/Edit_roleid'))
 			WebUI.delay(3)
 				WebUI.doubleClick(findTestObject('Object Repository/AppComposer/Text'))
-				rob.keyPress(KeyEvent.VK_BACK_SPACE)
-				rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+			 WebUI.sendKeys(findTestObject('Object Repository/AppComposer/Text'), Keys.chord(Keys.CONTROL,'a'))
+
 				WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), '')
 				WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), roleid)
 				extentTest.log(LogStatus.PASS, 'Add roleid name -' + roleid)
@@ -135,8 +134,8 @@ try
 				WebUI.delay(3)
 				WebUI.doubleClick(findTestObject('Object Repository/Access_Management/Username_text'))
 				WebUI.delay(2)
-				rob.keyPress(KeyEvent.VK_BACK_SPACE)
-				rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+				WebUI.sendKeys(findTestObject('Object Repository/Access_Management/Username_text'),  Keys.chord(Keys.BACK_SPACE))
+				
 				WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), '')
 				WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), username)
 				extentTest.log(LogStatus.PASS, 'Add username name - ' + username )
@@ -211,8 +210,8 @@ try
 				WebUI.delay(3)
 				WebUI.doubleClick(findTestObject('Object Repository/Access_Management/Username_text'))
 				WebUI.delay(2)
-				rob.keyPress(KeyEvent.VK_BACK_SPACE)
-				rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+								WebUI.sendKeys(findTestObject('Object Repository/Access_Management/Username_text'), Keys.chord(Keys.BACK_SPACE))
+
 				WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), '')
 				WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), 'abcd')
 				extentTest.log(LogStatus.PASS, 'Add username name - abcd' )
@@ -229,8 +228,8 @@ try
 				
 				WebUI.doubleClick(findTestObject('Access_Management/Firstname'))
 				WebUI.delay(2)
-				rob.keyPress(KeyEvent.VK_BACK_SPACE)
-				rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+				WebUI.sendKeys(findTestObject('Object Repository/Access_Management/Firstname'), Keys.chord(Keys.CONTROL,'a'))
+
 				WebUI.setText(findTestObject('Access_Management/Firstname'), '')
 				WebUI.setText(findTestObject('Access_Management/Firstname'), 'sami')
 				extentTest.log(LogStatus.PASS, 'First name of secuser modiefied ' )
@@ -284,8 +283,7 @@ try
 			//WebUI.click(findTestObject('Access_Management/Edit_roleid'))
 			WebUI.delay(3)
 				WebUI.doubleClick(findTestObject('Object Repository/AppComposer/Text'))
-				rob.keyPress(KeyEvent.VK_BACK_SPACE)
-				rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+				WebUI.sendKeys(findTestObject('Object Repository/AppComposer/Text'), Keys.chord(Keys.CONTROL,'a'))
 				WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), '')
 				WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), roleid)
 				extentTest.log(LogStatus.PASS, 'Add roleid name -' + roleid)
@@ -328,8 +326,7 @@ try
 				WebUI.delay(3)
 				WebUI.doubleClick(findTestObject('Object Repository/Access_Management/Username_text'))
 				WebUI.delay(2)
-				rob.keyPress(KeyEvent.VK_BACK_SPACE)
-				rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+					    WebUI.sendKeys(findTestObject('Object Repository/Access_Management/Username_text'),  Keys.chord(Keys.BACK_SPACE))
 				WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), '')
 				WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), username)
 				extentTest.log(LogStatus.PASS, 'Add username name - ' + username )
@@ -400,8 +397,7 @@ try
 					//WebUI.click(findTestObject('Access_Management/Edit_roleid'))
 					WebUI.delay(3)
 						WebUI.doubleClick(findTestObject('Object Repository/AppComposer/Text'))
-						rob.keyPress(KeyEvent.VK_BACK_SPACE)
-						rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+							    WebUI.sendKeys(findTestObject('Object Repository/AppComposer/Text'), Keys.chord(Keys.CONTROL,'a'))
 						WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), '')
 						WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), 'secabcd')
 						extentTest.log(LogStatus.PASS, 'Add roleid name - secabcd')
@@ -425,8 +421,7 @@ try
 							//WebUI.click(findTestObject('Access_Management/Edit_roleid'))
 							WebUI.delay(3)
 								WebUI.doubleClick(findTestObject('Object Repository/AppComposer/Text'))
-								rob.keyPress(KeyEvent.VK_BACK_SPACE)
-								rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+								    WebUI.sendKeys(findTestObject('Object Repository/AppComposer/Text'), Keys.chord(Keys.CONTROL,'a'))
 								WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), '')
 								WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), 'test')
 								extentTest.log(LogStatus.PASS, 'Add roleid name - test')

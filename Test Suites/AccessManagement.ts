@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>32dc3266-132e-4628-9a9d-e0de47672d48</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>15</value>
+            <iterationType>ALL</iterationType>
+            <value>8</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForAccess_Management</testDataId>
       </testDataLink>
@@ -61,6 +61,110 @@
          <type>DATA_COLUMN</type>
          <value>roleid</value>
          <variableId>6a6999c4-2652-4212-bee1-ea6d888e1150</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>62c945a7-9462-4550-8502-17409ae8889d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Access_Management/Access_managementNewtest cases</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9fc78cc9-bc97-41d7-afea-116863944c74</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1-4</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataAccessMangNew</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>9fc78cc9-bc97-41d7-afea-116863944c74</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>a9f2a711-987d-4ca6-8d3c-cfe8d3111a6c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9fc78cc9-bc97-41d7-afea-116863944c74</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>8b9b54c8-cecc-42e5-a2df-0684100c8fa0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9fc78cc9-bc97-41d7-afea-116863944c74</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstname</value>
+         <variableId>e00e9be7-19c3-4f04-8345-1841588ba0af</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9fc78cc9-bc97-41d7-afea-116863944c74</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
+         <variableId>a75f4bd9-40d3-47c4-a63a-8b895c8b3cb1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9fc78cc9-bc97-41d7-afea-116863944c74</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userChoice</value>
+         <variableId>2aa5904b-a47f-42c9-b07a-999d67874028</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9fc78cc9-bc97-41d7-afea-116863944c74</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>roleid</value>
+         <variableId>17745dee-54bd-4494-8757-d03e09ab9433</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>79766c1c-6e9a-4f61-aefb-e2692ef42276</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Access_Management/Access_managementNewtest cases 2</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c9196ced-bc84-4d77-ae01-3d8280b59612</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>5-7</value>
+         </iterationEntity>
+         <testDataId>Data Files/Regression/TestDataAccessMangNew</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c9196ced-bc84-4d77-ae01-3d8280b59612</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>TestCaseName</value>
+         <variableId>233409b2-30e0-45c0-a422-aa21b0dc875d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c9196ced-bc84-4d77-ae01-3d8280b59612</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>68b537c8-e2a0-42ab-811f-188b3f9c95a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c9196ced-bc84-4d77-ae01-3d8280b59612</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstname</value>
+         <variableId>8b2a0959-644a-4b2c-af54-53c6e6381788</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c9196ced-bc84-4d77-ae01-3d8280b59612</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
+         <variableId>276a8a71-b71a-4573-929c-2617bde96c63</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c9196ced-bc84-4d77-ae01-3d8280b59612</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userChoice</value>
+         <variableId>9c37f683-47cb-4ae8-a51f-3d4cbfa6a07e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c9196ced-bc84-4d77-ae01-3d8280b59612</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>roleid</value>
+         <variableId>9ab2faf3-7333-4c20-a379-a99b15de8413</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

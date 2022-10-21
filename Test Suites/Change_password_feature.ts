@@ -25,7 +25,6 @@
          </iterationEntity>
          <testDataId>Data Files/Change_passwd/Testdata</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>2fcbf871-d731-4354-9944-5685b7becb40</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -74,7 +73,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Change_password_feature/close_option</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -97,7 +95,7 @@
    <testCaseLink>
       <guid>cbda58f9-5b0c-4d02-adb4-54ad6eb9da19</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Change_password_feature/Fields_Validation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -108,7 +106,6 @@
          </iterationEntity>
          <testDataId>Data Files/Change_passwd/Testdata</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>bc86f2d2-6530-4369-a0a4-2358580a03b9</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -172,7 +169,6 @@
          </iterationEntity>
          <testDataId>Data Files/Change_passwd/Testdata</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>cf5e51e9-a0e4-4d96-9c33-42c131781b6f</testDataLinkId>
          <type>DATA_COLUMN</type>

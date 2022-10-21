@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/ProfileCreation</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>03c3e0d7-ec0a-475d-8577-aa7050af96ec</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -82,6 +83,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/ProfileSubmissions</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>eedb66fb-27b8-4868-afc1-ca297ee58312</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -133,6 +135,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/ProfileCreation</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

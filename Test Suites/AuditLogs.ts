@@ -20,12 +20,11 @@
          <combinationType>ONE</combinationType>
          <id>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForAuditLogs</testDataId>
       </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -45,63 +44,63 @@
          <variableId>66a4c392-6912-43f5-8e50-beb763b782b0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Operation</value>
          <variableId>9a95a030-6818-4365-b0d6-a2376bbf4b53</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>fileName</value>
          <variableId>62cf3de6-e44b-4df2-bb44-97e2078a39fc</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AppName</value>
          <variableId>3ac76aff-fb22-4e98-8f0b-893f234034b0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>InputFile</value>
          <variableId>d7a093ce-3530-4cef-b944-1af919a5238a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ToChange</value>
          <variableId>6dc50d9a-fa5d-4ef8-a77b-dd76294aa03a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ChangeValue</value>
          <variableId>5c3ade85-fcb8-46b4-ac60-e0caedb4fefe</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>ExecMode</value>
          <variableId>8ca725a6-17b0-4ec3-b9b8-473b09849cae</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FileArg</value>
          <variableId>22ead2f9-a277-4d7c-b3ed-ea80dabb790e</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobState</value>
          <variableId>28fefa40-cbec-473f-a722-68ebac7d14b0</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>jobAction</value>
          <variableId>4b353984-815b-4d48-b478-afe6e0f5c27d</variableId>
       </variableLink>
    </testCaseLink>

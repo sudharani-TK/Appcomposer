@@ -35,12 +35,6 @@
       <value></value>
       <variableId>2452730a-fb63-4365-92a2-2ba74197dafc</variableId>
    </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>06088c48-c331-4396-97c3-01d04194b342</variableId>
-   </variableLinks>
    <variable>
       <defaultValue>'ShellScript'</defaultValue>
       <description></description>
@@ -49,7 +43,7 @@
       <name>AppName</name>
    </variable>
    <variable>
-      <defaultValue>'ToOpen_LV.txt'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>d7386246-6246-4cc7-b688-3ceed1d43158</id>
       <masked>false</masked>
@@ -75,12 +69,5 @@
       <id>2452730a-fb63-4365-92a2-2ba74197dafc</id>
       <masked>false</masked>
       <name>renameFile</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>06088c48-c331-4396-97c3-01d04194b342</id>
-      <masked>false</masked>
-      <name>Operation</name>
    </variable>
 </TestCaseEntity>

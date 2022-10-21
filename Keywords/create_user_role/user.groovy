@@ -18,10 +18,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import com.relevantcodes.extentreports.LogStatus
-import java.awt.event.KeyEvent as KeyEvent
+
 
 import internal.GlobalVariable
-import java.awt.Robot
+import  org.openqa.selenium.Keys
 
 
 public class user {
@@ -29,7 +29,7 @@ public class user {
 	def add_user(String username, String firstname, String lastname, extentTest) {
 
 		WebUI.delay(2)
-		Robot rob = new Robot()
+
 
 		WebUI.click(findTestObject('Access_Management/Add_user'))
 		extentTest.log(LogStatus.PASS, 'Click on users')
@@ -44,8 +44,7 @@ public class user {
 		WebUI.delay(3)
 		WebUI.doubleClick(findTestObject('Object Repository/Access_Management/Username_text'))
 		WebUI.delay(2)
-		rob.keyPress(KeyEvent.VK_BACK_SPACE)
-		rob.keyRelease(KeyEvent.VK_BACK_SPACE)
+		WebUI.sendKeys(findTestObject('Object Repository/Access_Management/Username_text'), Keys.chord(Keys.BACK_SPACE))
 		WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), '')
 		WebUI.setText(findTestObject('Object Repository/Access_Management/Username_text'), username)
 		extentTest.log(LogStatus.PASS, 'Add username name - ' + username )

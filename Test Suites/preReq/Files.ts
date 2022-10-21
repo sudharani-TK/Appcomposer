@@ -15,7 +15,8 @@
       <guid>2442463e-d989-41d6-9c88-58119e844e51</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/PreReq/Pre-Req-Script-FileOps</testCaseId>
+      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-Script-FileOps</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -33,7 +34,8 @@
       <guid>4263193b-a9e9-4bee-9011-724d4828fb75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/PreReq/Pre-Req-GenericActions</testCaseId>
+      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-GenericActions</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>SCRIPT_VARIABLE</type>
@@ -51,7 +53,8 @@
       <guid>0489e391-301f-4e64-8b9d-f10b5a6d20ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/PreReq/Pre-Req-Script-FolderOps</testCaseId>
+      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-Script-FolderOps</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
