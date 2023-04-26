@@ -47,11 +47,10 @@ def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, 
 def LogStatus = com.relevantcodes.extentreports.LogStatus
 def extentTest = extent.startTest(TestCaseName)
 CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
-String screenShot='ExtentReports/'+TestCaseName+userChoice+GlobalVariable.G_Browser+'.png'
+
 def result
 WebUI.delay(2)
-Robot rob = new Robot()
-WebUI.delay(2)
+
 try
 {
 	WebUI.delay(2)

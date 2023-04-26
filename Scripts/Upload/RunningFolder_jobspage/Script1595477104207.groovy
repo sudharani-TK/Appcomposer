@@ -15,23 +15,25 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.support.events.EventFiringWebDriver as EventFiringWebDriver
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.Capabilities
 import org.openqa.selenium.remote.RemoteWebDriver
 import com.kms.katalon.core.exception.StepErrorException as StepErrorException
 import com.kms.katalon.core.util.KeywordUtil
 
-'Login into PAW '
-WebUI.callTestCase(findTestCase('Generic/Login'), [('username') : GlobalVariable.G_userName, ('password') : GlobalVariable.G_Password],
-FailureHandling.STOP_ON_FAILURE)
-
-
-String ReportFile=GlobalVariable.G_ReportName+".html"
-
-def extent=CustomKeywords.'generateReports.GenerateReport.create'(ReportFile,GlobalVariable.G_Browser,GlobalVariable.G_BrowserVersion)
-def LogStatus = com.relevantcodes.extentreports.LogStatus;
-
+//====================================================================================
+WebDriver driver = DriverFactory.getWebDriver()
+EventFiringWebDriver eventFiring = ((DriverFactory.getWebDriver()) as EventFiringWebDriver)
+WebDriver wrappedWebDriver = eventFiring.getWrappedDriver()
+RemoteWebDriver katalonWebDriver = ((wrappedWebDriver) as RemoteWebDriver)
+//====================================================================================
+ReportFile = (GlobalVariable.G_ReportName + '.html')
+def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
+def LogStatus = com.relevantcodes.extentreports.LogStatus
 def extentTest = extent.startTest(TestCaseName)
+CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
+//=====================================================================================
 def result 
 WebUI.delay(2)
 try

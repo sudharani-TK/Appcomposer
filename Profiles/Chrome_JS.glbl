@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'samita'</initValue>
+      <initValue>'pbsworks'</initValue>
       <name>G_userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'samita'</initValue>
+      <initValue>'pbsworks'</initValue>
       <name>G_Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,12 +26,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://172.16.80.36:4443/pbsworks'</initValue>
+      <initValue>'https://172.16.80.36:4443/pbsworks/'</initValue>
       <name>G_BaseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'FireFox'</initValue>
+      <initValue>'Chrome'</initValue>
       <name>G_ReportName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

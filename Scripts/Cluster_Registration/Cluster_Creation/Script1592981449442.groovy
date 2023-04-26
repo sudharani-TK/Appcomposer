@@ -12,7 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot
+
 import java.awt.event.KeyEvent as KeyEvent
 
 import org.openqa.selenium.Keys as Keys
@@ -48,11 +48,10 @@ def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, 
 def LogStatus = com.relevantcodes.extentreports.LogStatus
 def extentTest = extent.startTest(TestCaseName)
 CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
-String screenShot='ExtentReports/'+TestCaseName+userChoice+GlobalVariable.G_Browser+'.png'
+
 def result
 WebUI.delay(2)
-Robot rob = new Robot()
-WebUI.delay(2)
+
 try
 {
 	WebUI.delay(2)

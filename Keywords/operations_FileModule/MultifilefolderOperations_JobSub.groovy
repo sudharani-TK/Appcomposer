@@ -52,7 +52,7 @@ public class MultifilefolderOperations_JobSub {
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 			//WebUI.click(findTestObject('FilesPage/Icon_Close'))
 				WebUI.delay(2)
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				WebUI.delay(2)
 			//Verify notification
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_DeleteFile'),5)
@@ -116,7 +116,7 @@ public class MultifilefolderOperations_JobSub {
 				WebUI.click(findTestObject('FilesPage/btn_Save'))
 				WebUI.delay(3)
 				extentTest.log(LogStatus.PASS, 'Clicked on Save Button')
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				result=WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_FileCreation'), 5)
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 

@@ -21,10 +21,11 @@
          <id>e7ae6922-5f7d-4956-931b-25fd9ade9ffe</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>11-19</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>e7ae6922-5f7d-4956-931b-25fd9ade9ffe</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -53,11 +54,12 @@
          <combinationType>ONE</combinationType>
          <id>1d0a3a65-5039-4adb-a1d1-901f54aec805</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>SPECIFIC</iterationType>
             <value>1-10</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>1d0a3a65-5039-4adb-a1d1-901f54aec805</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -91,6 +93,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>72769dfa-ce6b-473f-b5fe-2b3c6fba3027</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -124,6 +127,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>779297c4-316e-4e6c-b0e0-1ec3362f0003</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -153,10 +157,11 @@
          <id>f148e622-3d6f-44be-8355-a67aa489a91a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>5-5</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileViewer</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>f148e622-3d6f-44be-8355-a67aa489a91a</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -196,6 +201,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForCreateFile</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>7905175c-f321-4223-b404-67ff832afeeb</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -229,6 +235,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForCreateFile</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>4b77c4cb-25d6-4579-b564-95d40835a1b0</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -257,11 +264,12 @@
          <combinationType>ONE</combinationType>
          <id>eb81605c-0fb0-4e96-8dad-18c375bbefb9</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>5-6</value>
+            <iterationType>ALL</iterationType>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForBookMarks</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>eb81605c-0fb0-4e96-8dad-18c375bbefb9</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -298,6 +306,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/FilesModule/EditFilePath-FilesTab</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

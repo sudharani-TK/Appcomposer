@@ -119,7 +119,7 @@ try {
 	WebUI.click(findTestObject('2019.3/span_Optistruct'))
 	extentTest.log(LogStatus.PASS, 'Click on Optistruct')
 
-	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 	extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 	WebUI.delay(2)
 	result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_JobSubmission'),5)

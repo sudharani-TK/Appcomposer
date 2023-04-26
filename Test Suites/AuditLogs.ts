@@ -21,10 +21,11 @@
          <id>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
+            <value>1-10</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForAuditLogs</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -68,15 +69,15 @@
          <variableId>d7a093ce-3530-4cef-b944-1af919a5238a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ToChange</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>6dc50d9a-fa5d-4ef8-a77b-dd76294aa03a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>915fb5c2-4a3e-43f3-8d4d-cf9755e6f731</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>ChangeValue</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>5c3ade85-fcb8-46b4-ac60-e0caedb4fefe</variableId>
       </variableLink>
       <variableLink>

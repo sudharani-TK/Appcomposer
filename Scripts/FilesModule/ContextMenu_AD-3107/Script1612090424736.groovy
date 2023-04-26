@@ -123,7 +123,7 @@ try
 
 	WebUI.delay(2)
 
-	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
 
 	WebUI.delay(2)

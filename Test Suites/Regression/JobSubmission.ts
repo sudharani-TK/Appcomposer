@@ -21,10 +21,11 @@
          <id>bb74da93-4c6e-4eb0-8cac-de53d70ee2ba</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>1-3</value>
+            <value>53</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForJS-Latest</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>bb74da93-4c6e-4eb0-8cac-de53d70ee2ba</testDataLinkId>
          <type>DATA_COLUMN</type>

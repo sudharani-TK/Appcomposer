@@ -21,17 +21,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'FireFox'</initValue>
+      <initValue>'Edge Chromium'</initValue>
       <name>G_Browser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://172.16.80.46:4443/pbsworks'</initValue>
+      <initValue>'https://172.16.80.14:4443/pbsworks'</initValue>
       <name>G_BaseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'FireFox'</initValue>
+      <initValue>'Edge Chromium'</initValue>
       <name>G_ReportName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -71,7 +71,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Grid'</initValue>
+      <initValue>'Gird'</initValue>
       <name>G_Platform</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

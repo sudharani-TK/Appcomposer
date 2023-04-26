@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'testperf80'</initValue>
+      <initValue>'testperf3'</initValue>
       <name>G_userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'FireFox'</initValue>
+      <initValue>'Edge Chromium'</initValue>
       <name>G_Browser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -31,7 +31,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'FireFox'</initValue>
+      <initValue>'Edge Chromium'</initValue>
       <name>G_ReportName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

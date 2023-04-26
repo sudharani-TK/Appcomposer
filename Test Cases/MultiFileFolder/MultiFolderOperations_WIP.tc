@@ -5,6 +5,36 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>17b51c77-446c-4d6d-a35e-b34853326066</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5bd763fe-ffa3-449d-87ab-60d9e59e7d9a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b3e32d94-fc27-4fac-bac5-8af8fbc40736</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3beb3812-cbfc-4316-881f-b4b881da1829</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8543efa-f4e3-440b-9f80-4c3620bee8b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44c171f0-ef48-479f-909e-1efeff751738</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'new file '</defaultValue>
       <description></description>

@@ -35,7 +35,8 @@ public class folderOperations_Icon {
 				op='Copy'
 				TestObject newFileOp=WebUI.modifyObjectProperty(findTestObject('FilesPage/FileOperations_Icon'), 'id', 'equals', Operation, true)
 				println(Operation)
-				WebUI.click(newFileOp)
+				WebUI.delay(2)
+				WebUI.click(findTestObject('FilesPage/FileOperations_Icon'))
 				extentTest.log(LogStatus.PASS, 'Clicked on top menu icon -'+op)
 				WebUI.click(findTestObject('FilesPage/Icon_Close'))
 				def folderToCheck
@@ -78,7 +79,7 @@ public class folderOperations_Icon {
 				if(isFilePresent){
 					extentTest.log(LogStatus.PASS, 'Verified Pasted Folder - '+ folderToCheck)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 
 				if(TestCaseName.contains('Job Submission')) {
@@ -99,7 +100,7 @@ public class folderOperations_Icon {
 					extentTest.log(LogStatus.PASS, folderToCheck + ' - Not pasted')
 					extentTest.log(LogStatus.FAIL)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 
 				return result
@@ -151,7 +152,7 @@ public class folderOperations_Icon {
 				if(isFilePresent1){
 					extentTest.log(LogStatus.PASS, 'Verified Pasted File - '+ folderToCheck)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 
 
@@ -172,7 +173,7 @@ public class folderOperations_Icon {
 					extentTest.log(LogStatus.PASS, folderToCheck + ' - Not pasted')
 					extentTest.log(LogStatus.FAIL)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 
 				println("notification status - "+result)
@@ -272,7 +273,7 @@ public class folderOperations_Icon {
 				WebUI.delay(2)
 				extentTest.log(LogStatus.PASS, 'Clicked on Yes on Delete confirmation pop-up ')
 
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 				msg = '1 item deleted successfully'
 				WebUI.delay(2)
@@ -286,7 +287,7 @@ public class folderOperations_Icon {
 					extentTest.log(LogStatus.PASS, '  Not pasted')
 					extentTest.log(LogStatus.FAIL)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 
 				if (TestCaseName.contains('Job Submission')) {

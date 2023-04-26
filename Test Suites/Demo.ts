@@ -3,6 +3,7 @@
    <description></description>
    <name>Demo</name>
    <tag></tag>
+   <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>8</maxConcurrentInstances>
    <testSuiteRunConfigurations>
@@ -10,6 +11,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_Files</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -19,6 +21,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>FireFox_Files</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>

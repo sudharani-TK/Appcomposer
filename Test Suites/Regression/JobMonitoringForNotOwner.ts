@@ -20,11 +20,12 @@
          <combinationType>ONE</combinationType>
          <id>0c08933b-719f-4cf4-9276-6c6719bcdfad</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>SPECIFIC</iterationType>
             <value>1-15</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForJobDetails</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>0c08933b-719f-4cf4-9276-6c6719bcdfad</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -66,10 +67,11 @@
          <id>db2a179e-363b-49ab-a7bb-22cfe5090a90</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>7</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataJobActionsTopMenuNotOwner</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>db2a179e-363b-49ab-a7bb-22cfe5090a90</testDataLinkId>
          <type>DATA_COLUMN</type>

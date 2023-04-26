@@ -28,7 +28,7 @@ public class executeJobAction_Icon {
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 			//WebUI.click(findTestObject('FilesPage/Icon_Close'))
 				WebUI.delay(2)
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				WebUI.delay(2)
 			//Verify notification
 				result = WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_JobDelete'),5)
@@ -54,7 +54,7 @@ public class executeJobAction_Icon {
 					WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 					WebUI.delay(2)
 					extentTest.log(LogStatus.PASS, 'terminating job  ')
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					WebUI.delay(2)
 					isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobTerminate'), 5)
 					println("notification status - "+isNotoficationPresent)
@@ -95,7 +95,7 @@ public class executeJobAction_Icon {
 			 WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 			 //WebUI.click(findTestObject('FilesPage/Icon_Close'))
 			 WebUI.delay(2)
-			 WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			 WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			 WebUI.delay(2)
 			 //Verify notification
 			 result = WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_JobDelete'),5)

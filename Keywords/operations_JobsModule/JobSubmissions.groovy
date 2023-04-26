@@ -119,7 +119,12 @@ public class JobSubmissions {
 			shortCutFileLocation = 'C:/stage/ShortCutFiles'
 		}
 		else {
-			shortCutFileLocation = '/stage/'+GlobalVariable.G_userName+'/ShortCutFiles'
+			if(GlobalVariable.G_Platform.equals('Gird')) {
+				shortCutFileLocation ='/gridusers/'+GlobalVariable.G_userName+'/ShortCutFiles'
+			}
+			else {
+				shortCutFileLocation = '/stage/'+GlobalVariable.G_userName+'/ShortCutFiles'
+			}
 		}
 		def folderLocation=GlobalVariable.G_userName+'-ToSetOutPutDir'
 

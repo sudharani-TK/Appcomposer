@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/FolderCreate</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>6c0241b7-99b7-417d-ab9c-0a63f9450fea</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -58,6 +59,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/FolderOps</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>a360098c-69dc-4e2f-951a-2747cc3fb33d</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -97,6 +99,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/FolderOps</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>c1991115-672d-4dac-aa55-0cd47882ca22</testDataLinkId>
          <type>DATA_COLUMN</type>

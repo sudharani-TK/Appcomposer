@@ -58,6 +58,10 @@ try
 
 	def GP = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('Object Repository/NewJobPage/GenericProfile'),2,extentTest,'JSPage')
 
+	
+
+	
+
 	if (GP) {
 		extentTest.log(LogStatus.PASS, 'Navigated to Job Submission For for - '+AppName)		}
 
@@ -90,6 +94,7 @@ try
 	switch(ProfileType)
 	{
 		case'Local':
+		    WebUI.delay(3)
 			WebUI.click(findTestObject('Object Repository/FilesPage/Icon_EditFilePath'))
 			def location=navLocation+'/ProfileFiles/'
 			println('##################################################################')
@@ -99,6 +104,7 @@ try
 			WebUI.setText(findTestObject('Object Repository/FilesPage/textBx_FilePath'), location)
 			WebUI.sendKeys(findTestObject('Object Repository/FilesPage/textBx_FilePath'), Keys.chord(Keys.ENTER))
 			extentTest.log(LogStatus.PASS, 'Navigated to /stage/'+GlobalVariable.G_userName+'/ProfileFiles/ in RFB ')
+			WebUI.delay(5)
 			def filePath = (RunConfiguration.getProjectDir() + '/Upload/JobFiles/') + InputFile
 			def newFP = CustomKeywords.'generateFilePath.filePath.getFilePath'(filePath)
 			println(newFP)
@@ -108,6 +114,7 @@ try
 			break;
 
 		case 'Remote':
+		    WebUI.delay(3)
 			WebUI.click(findTestObject('Object Repository/FilesPage/Icon_EditFilePath'))
 			def fileLocation=navLocation+'/ForProfiles/InputDeck/'
 			println('##################################################################')
@@ -116,6 +123,7 @@ try
 			WebUI.setText(findTestObject('Object Repository/FilesPage/textBx_FilePath'), fileLocation)
 			WebUI.sendKeys(findTestObject('Object Repository/FilesPage/textBx_FilePath'), Keys.chord(Keys.ENTER))
 			extentTest.log(LogStatus.PASS, 'Navigated to /stage/InputDeck in RFB ')
+			WebUI.waitForElementClickable(findTestObject('Object Repository/JobSubmissionForm/textBx_file_filter'), 10)
 			WebUI.waitForElementPresent(findTestObject('Object Repository/JobSubmissionForm/textBx_file_filter'), 5)
 			WebUI.click(findTestObject('Object Repository/JobSubmissionForm/textBx_file_filter'))
 			WebUI.setText(findTestObject('Object Repository/JobSubmissionForm/textBx_file_filter'), RemoteFile)
@@ -162,8 +170,11 @@ try
 	extentTest.log(LogStatus.PASS, 'Clicked on Save As ')
 	extentTest.log(LogStatus.PASS, 'Entered profile name -  '+proName)
 
-	WebUI.clearText(findTestObject('NewJobPage/TxtBx_saveProfile'))
-	WebUI.delay(1)
+	//WebUI.clearText(findTestObject('NewJobPage/TxtBx_saveProfile'))
+	//WebUI.doubleClick(findTestObject('NewJobPage/TxtBx_saveProfile'))
+	WebUI.sendKeys(findTestObject('NewJobPage/TxtBx_saveProfile'), Keys.chord(Keys.CONTROL, 'a'))
+	WebUI.sendKeys(findTestObject('NewJobPage/TxtBx_saveProfile'), Keys.chord(Keys.BACK_SPACE))
+	WebUI.delay(3)
 	WebUI.setText(findTestObject('NewJobPage/TxtBx_saveProfile'), proName)
 	//WebUI.sendKeys(findTestObject('NewJobPage/TxtBx_saveProfile'), proName)
 
@@ -229,10 +240,10 @@ try
 		{
 			WebUI.delay(2)
 			WebUI.waitForElementClickable(findTestObject('Object Repository/NewJobPage/GenericProfile'), 10)
-			//	WebUI.click(findTestObject('Object Repository/NewJobPage/GenericProfile'))
-				WebElement ele = driver.findElement(By.xpath("//span[@title='Generic Profile']"));
+				WebUI.click(findTestObject('Object Repository/NewJobPage/GenericProfile'))
+			/*	WebElement ele = driver.findElement(By.xpath("//span[@title='Generic Profile']"));
 				JavascriptExecutor jse = (JavascriptExecutor)driver;
-				jse.executeScript("arguments[0].click()", ele);
+				jse.executeScript("arguments[0].click()", ele);*/
 			isProfilePersent = WebUI.verifyElementPresent(LeftNavAppIdentifier, 5)
 
 			if (isProfilePersent) {

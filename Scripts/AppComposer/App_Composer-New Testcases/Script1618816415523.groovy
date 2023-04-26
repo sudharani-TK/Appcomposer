@@ -115,6 +115,8 @@ try
 			
 				extentTest.log(LogStatus.PASS, 'Notification Generated ' + Text3)
 			result=WebUI.verifyElementPresent(findTestObject('AppComposer/Testapp_clone'), 3)
+			
+			WebUI.delay(3)
 			WebUI.click(findTestObject('AppComposer/JobsTab'))
 			
 			extentTest.log(LogStatus.PASS, 'Navigated to Jobs Tab')
@@ -384,6 +386,7 @@ try
 			WebUI.delay(5)
 			WebUI.click(findTestObject('AppComposer/Ok_btn'))
 			extentTest.log(LogStatus.PASS, 'Click on Ok button')
+			WebUI.delay(2)
 			
 			WebUI.click(findTestObject('Preferences/Profiletab'))
 			extentTest.log(LogStatus.PASS, 'Click on profile tab')
@@ -425,7 +428,7 @@ try
 			extentTest.log(LogStatus.PASS, 'Click on add resources icon')
 			WebUI.delay(3)
 			
-			TestObject role =WebUI.modifyObjectProperty(findTestObject('Access_Management/Roleinfo'),'text', 'equals','Demo', true)
+			TestObject role =WebUI.modifyObjectProperty(findTestObject('Access_Management/Roleinfo'),'text', 'equals','demo', true)
 			WebUI.doubleClick(role)
 			extentTest.log(LogStatus.PASS, 'Click on added role')
 			

@@ -256,7 +256,7 @@ break
 			extentTest.log(LogStatus.PASS, "Clicked on Save Button" )
 
 
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 			WebUI.delay(2)
 			result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_FileCreation'),5)

@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestData2020.4</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>12e3c46d-55f3-401c-b2c0-111055cc29a9</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -58,6 +59,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataFileViewer2020.4</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>6094660e-4e23-436c-9b36-99441694f9ef</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -91,6 +93,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataFileViewer2020.4</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -133,6 +136,7 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/Jobdetailspage_FileViewer-2020.4</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

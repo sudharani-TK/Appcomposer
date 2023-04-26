@@ -5,6 +5,36 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4b4cd39d-a76e-4c11-bc34-0e11af672b84</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cbe2372f-42c1-49a2-814d-03b4a4ed1b1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d214cfc-ed7a-438b-b9ca-7ad4eec8412e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd7761bd-5371-43eb-9269-070cb08d8352</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c0e49dd6-643d-456c-b3b1-b287bf80341b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13d39499-a670-42b5-8659-8d3090f96932</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Completed'</defaultValue>
       <description></description>

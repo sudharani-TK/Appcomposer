@@ -75,7 +75,7 @@ try {
 	WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 	//WebUI.click(findTestObject('FilesPage/Icon_Close'))
 	WebUI.delay(2)
-	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 	WebUI.delay(2)
 	//Verify notification
 	def notfication=WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_JobDelete'),5,FailureHandling.CONTINUE_ON_FAILURE)

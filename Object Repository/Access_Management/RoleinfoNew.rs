@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[(text() = 'demo' or . = 'demo')]</value>
+         <value>//*[(text() = 'demo1' or . = 'demo1')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

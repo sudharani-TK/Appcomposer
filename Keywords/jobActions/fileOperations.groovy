@@ -86,7 +86,7 @@ public class fileOperations {
 				if(isFilePresent){
 					extentTest.log(LogStatus.PASS, 'Verified Pasted File - '+ fileToCheck)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 				WebUI.delay(2)
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_CopyFile'),5)
@@ -138,7 +138,7 @@ public class fileOperations {
 				WebUI.delay(2)
 				WebUI.click(findTestObject('FilesPage/ContextMenu_FileGrid_Paste'))
 				extentTest.log(LogStatus.PASS, 'Clicked on Paste Option')
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 
 				WebUI.delay(2)
@@ -165,7 +165,7 @@ public class fileOperations {
 					WebUI.click(findTestObject('FilesPage/btn_Save'))
 					WebUI.delay(3)
 					extentTest.log(LogStatus.PASS, 'Clicked on Save Button')
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 
 
@@ -180,7 +180,7 @@ public class fileOperations {
 					else {
 						println ("Filed not renamed to "+Renameto + " isElemenetPresent " + isElemenetPresent)
 					}
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					result=WebUI.waitForElementPresent(newFileObj, 10, FailureHandling.CONTINUE_ON_FAILURE)
 					extentTest.log(LogStatus.PASS, "verified notification for operation - "+Operation)
 				}
@@ -205,7 +205,7 @@ public class fileOperations {
 						result=false
 					}
 
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 
 
@@ -224,7 +224,7 @@ public class fileOperations {
 				extentTest.log(LogStatus.PASS, 'Clicked on Context Menu Option for - '+Operation)
 
 				println"Clicked Compress"
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 
 				WebUI.delay(2)
@@ -232,7 +232,7 @@ public class fileOperations {
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_CompressFile'),5)
 				extentTest.log(LogStatus.PASS, "verified notification for operation - "+Operation)
 				println("notification status - "+result)
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
 				if (TestCaseName.contains('tile view')) {
 					WebUI.delay(2)
@@ -334,7 +334,7 @@ public class fileOperations {
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 			//WebUI.click(findTestObject('FilesPage/Icon_Close'))
 				WebUI.delay(2)
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				WebUI.delay(2)
 			//Verify notification
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_DeleteFile'),5)

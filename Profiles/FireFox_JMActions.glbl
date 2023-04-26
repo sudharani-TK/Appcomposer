@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'pbsworks'</initValue>
+      <initValue>'rohini'</initValue>
       <name>G_userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'pbsworks'</initValue>
+      <initValue>'rohini'</initValue>
       <name>G_Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://10.75.22.142:4443/pbsworks'</initValue>
+      <initValue>'https://172.16.80.36:4443/pbsworks/'</initValue>
       <name>G_BaseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -66,7 +66,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Linux'</initValue>
+      <initValue>'Windows'</initValue>
       <name>G_HostMachine</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

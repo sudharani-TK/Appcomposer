@@ -9,6 +9,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus as LogStatus
+import org.openqa.selenium.Keys as Keys
 
 import internal.GlobalVariable as GlobalVariable
 
@@ -67,6 +68,7 @@ try {
 	WebUI.click(findTestObject('JobMonitoringPage/JM_SearchBox'))
 	//WebUI.setText(findTestObject('JobMonitoringPage/JM_SearchBox'),AllJobsUser)
 	WebUI.sendKeys(findTestObject('JobMonitoringPage/JM_SearchBox'), 'shJob')
+	WebUI.sendKeys(findTestObject('JobMonitoringPage/JM_SearchBox'), Keys.chord(Keys.ENTER))
 	extentTest.log(LogStatus.PASS, 'Searched for shjob')
 	//String myXpath="//a[contains(@class,'show-text-ellipsis')][contains(text(),'"+jobidSH+"')]"
 	String myXpath="//a[contains(@title,'"+jobidSH+"')]"
@@ -76,16 +78,18 @@ try {
 	WebUI.delay(2)
 	WebUI.mouseOver(jobRow)
 	WebUI.delay(4)
-	WebUI.click(jobRow)
+	
 
 	extentTest.log(LogStatus.PASS, 'Selected the job row and initiated resubmit action for shjob ')
 	if(GlobalVariable.G_Browser.equals('Chrome'))
 	{
 		WebUI.rightClick(jobRow)
+		println("HI =============")
 		def result = CustomKeywords.'operations_JobsModule.executeJobAction.perfromJobAction'('Resubmit', TestCaseName,userChoice,extentTest)
 	}
 	else
 	{
+		WebUI.click(jobRow)
 		def result=CustomKeywords.'operations_JobsModule.executeJobAction_JobDetails_Topmenu.perfromJobAction'('job_detail_resubmit_btn',TestCaseName,extentTest)
 	}
 	
@@ -99,13 +103,14 @@ try {
 	WebUI.click(findTestObject('Object Repository/JobMonitoringPage/a_Reset'))
 	WebUI.click(findTestObject('JobMonitoringPage/JM_SearchBox'))
 	WebUI.sendKeys(findTestObject('JobMonitoringPage/JM_SearchBox'), 'pyJob')
+	WebUI.sendKeys(findTestObject('JobMonitoringPage/JM_SearchBox'), Keys.chord(Keys.ENTER))
 	extentTest.log(LogStatus.PASS, 'Searched for pyjob')
 	String myXpath1="//a[contains(@class,'show-text-ellipsis')][contains(text(),'"+jobidPY+"')]"
 	TestObject jobRow1 = new TestObject('objectName')
 	jobRow1.addProperty('xpath', ConditionType.EQUALS, myXpath1)
 	WebUI.delay(2)
 	WebUI.mouseOver(jobRow1)
-	WebUI.click(jobRow1)
+	
 
 	extentTest.log(LogStatus.PASS, 'Selected the job row and initiated resubmit action for pyjob')
 	if(GlobalVariable.G_Browser.equals('Chrome'))
@@ -115,6 +120,7 @@ try {
 	}
 	else
 	{
+		WebUI.click(jobRow1)
 		def result=CustomKeywords.'operations_JobsModule.executeJobAction_JobDetails_Topmenu.perfromJobAction'('job_detail_resubmit_btn',TestCaseName,extentTest)
 	}
 	

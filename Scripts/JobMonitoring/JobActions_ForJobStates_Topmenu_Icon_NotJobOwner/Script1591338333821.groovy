@@ -11,21 +11,13 @@ import com.relevantcodes.extentreports.LogStatus
 
 import internal.GlobalVariable as GlobalVariable
 
-'Login into PAW '
-WebUI.callTestCase(findTestCase('Generic/Login'), [('username') : GlobalVariable.G_userName, ('password') : GlobalVariable.G_Password],
-FailureHandling.STOP_ON_FAILURE)
-
-
-String ReportFile=GlobalVariable.G_ReportName+".html"
-
-def extent=CustomKeywords.'generateReports.GenerateReport.create'(ReportFile,GlobalVariable.G_Browser,GlobalVariable.G_BrowserVersion)
-def LogStatus = com.relevantcodes.extentreports.LogStatus;
-
-def TCName=TestCaseName+' - through top menu icons - for Non JobOwner'
-def extentTest = extent.startTest(TCName)
-def result
-def msgPass
-def mssFail
+//====================================================================================
+ReportFile = (GlobalVariable.G_ReportName + '.html')
+def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
+def LogStatus = com.relevantcodes.extentreports.LogStatus
+def extentTest = extent.startTest(TestCaseName)
+CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
+//=====================================================================================
 WebUI.delay(2)
 try
 {

@@ -20,7 +20,10 @@ public class executeJobAction_JobDetails_Topmenu {
 		WebUI.delay(3)
 
 		switch (Action) {
+			case 'Download':
 			case 'job_detail_download_btn':
+			Action='job_detail_download_btn'
+		
 				println ("Form job actions - "+Action)
 				TestObject newJobAction = WebUI.modifyObjectProperty(findTestObject('JobMonitoringPage/Jobdetails_topmenu'),
 						'id', 'equals', Action, true)
@@ -72,13 +75,13 @@ public class executeJobAction_JobDetails_Topmenu {
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 				WebUI.delay(2)
 				extentTest.log(LogStatus.PASS, 'terminating job  ')
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				WebUI.delay(2)
 				isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobTerminate'), 5)
 				println("notification status - "+isNotoficationPresent)
 				extentTest.log(LogStatus.PASS, 'Verified notification')
 				result=isNotoficationPresent
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
 				result=true
 				break
@@ -102,7 +105,7 @@ public class executeJobAction_JobDetails_Topmenu {
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 				WebUI.delay(2)
 				extentTest.log(LogStatus.PASS, 'deleting job  ')
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				WebUI.delay(3)
 				isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobDelete'), 5)
 				println("notification status - "+isNotoficationPresent)

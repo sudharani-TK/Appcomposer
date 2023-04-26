@@ -21,7 +21,7 @@
          <id>7d394bde-79e6-4d97-a0a2-ffc440bcaa5b</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>5</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForPreferences</testDataId>
       </testDataLink>

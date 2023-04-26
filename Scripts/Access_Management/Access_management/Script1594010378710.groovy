@@ -224,7 +224,7 @@ try {
 
             WebUI.click(findTestObject('Access_Management/Confirm_button'))
 
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
             extentTest.log(LogStatus.PASS, 'Opened Notification Panel')
 
@@ -298,11 +298,13 @@ try {
             WebUI.click(findTestObject('Access_Management/Confirm_button'))
 
             WebUI.click(findTestObject('Access_Management/Save_role'))
+			WebUI.delay(3)
 
             TestObject role = WebUI.modifyObjectProperty(findTestObject('Access_Management/Roleinfo'), 'text', 'equals', 
                 roleid, true)
 
             WebUI.doubleClick(role)
+			WebUI.delay(3)
 
             WebUI.click(findTestObject('Access_Management/Shellscript_resource'))
 
@@ -454,6 +456,7 @@ try {
             WebUI.setText(findTestObject('Object Repository/AppComposer/Text'), 'newrole')
 
             extentTest.log(LogStatus.PASS, 'Add new roleid name')
+			WebUI.delay(3)
 
             WebUI.click(findTestObject('Access_Management/Confirm_cancel'))
 
@@ -526,7 +529,7 @@ try {
 
             extentTest.log(LogStatus.PASS, 'Click on confirm button')
 
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
             extentTest.log(LogStatus.PASS, 'Opened Notification Panel')
 

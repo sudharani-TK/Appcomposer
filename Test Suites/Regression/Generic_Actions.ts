@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForGeneric_Actions</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>ffc6a9a6-9456-43a6-8dc4-c86d7b6687f8</testDataLinkId>
          <type>DATA_COLUMN</type>

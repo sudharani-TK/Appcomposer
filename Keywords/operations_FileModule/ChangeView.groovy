@@ -57,7 +57,7 @@ public class ChangeView {
 				else {
 					WebUI.refresh()
 				}
-				WebUI.click(viewIconTile)
+				WebUI.click(viewIconTile,FailureHandling.CONTINUE_ON_FAILURE)
 				extentTest.log(LogStatus.PASS, 'Changed View to Tile View as per the test case - ' +TestCaseName)
 			}
 

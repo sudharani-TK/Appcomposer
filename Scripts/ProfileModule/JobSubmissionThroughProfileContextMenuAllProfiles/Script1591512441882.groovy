@@ -138,6 +138,7 @@ try {
 	}
 	if(AppName.contains('InComplete'))
 	{
+		
 		WebUI.click(findTestObject('Object Repository/JobSubmissionForm/TxtBox_ReqFiled_ToFill'))
 		WebUI.setText(findTestObject('Object Repository/JobSubmissionForm/TxtBox_ReqFiled_ToFill'), 'testString')
 		extentTest.log(LogStatus.PASS, 'Entered text for required field')
@@ -147,6 +148,7 @@ try {
 		//extentTest.log(LogStatus.PASS,extentTest.addScreenCapture(screenShotforJS))
 		def submitBtn = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('JobSubmissionForm/button_Submit_Job'),20,extentTest,'SubmitButton')
 		if (submitBtn) {
+			WebUI.delay(2)
 			WebUI.click(findTestObject('JobSubmissionForm/button_Submit_Job'))
 			extentTest.log(LogStatus.PASS, 'Clicked on Submit Button ')
 		}

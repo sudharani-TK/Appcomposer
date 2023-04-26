@@ -20,7 +20,7 @@
       <name>jobAction</name>
    </variable>
    <variable>
-      <defaultValue>'Test Case to verify upload zip file in Runnin Folder'</defaultValue>
+      <defaultValue>'Test Case to App defs present in the application'</defaultValue>
       <description></description>
       <id>af74ead0-ad1a-48e1-9136-865ab3d1a631</id>
       <masked>false</masked>

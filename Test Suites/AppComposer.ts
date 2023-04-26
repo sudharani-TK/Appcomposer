@@ -21,7 +21,7 @@
          <id>dfc5e0e4-e4ae-47f6-b597-b4098b904dd0</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>10</value>
+            <value>13</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForAppComposer</testDataId>
       </testDataLink>

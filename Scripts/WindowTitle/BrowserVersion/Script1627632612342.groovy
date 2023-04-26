@@ -15,29 +15,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus as LogStatus
 
 import internal.GlobalVariable as GlobalVariable
-
-'Login into PAW '
-WebUI.callTestCase(findTestCase('Generic/Login'), [('username') : GlobalVariable.G_userName, ('password') : GlobalVariable.G_Password], 
-    FailureHandling.STOP_ON_FAILURE)
-
 WebDriver driver = DriverFactory.getWebDriver()
 
-EventFiringWebDriver eventFiring = ((DriverFactory.getWebDriver()) as EventFiringWebDriver)
 
-// Get the driver wrapped inside
-WebDriver wrappedWebDriver = eventFiring.getWrappedDriver()
-
-// Cast the wrapped driver into RemoteWebDriver
-RemoteWebDriver katalonWebDriver = ((wrappedWebDriver) as RemoteWebDriver)
-
-String ReportFile = GlobalVariable.G_ReportName + '.html'
-
+ReportFile = (GlobalVariable.G_ReportName + '.html')
 def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
-
 def LogStatus = com.relevantcodes.extentreports.LogStatus
-
 def extentTest = extent.startTest(TestCaseName)
-
+CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
+//String screenShot='ExtentReports/'+TestCaseName+userChoice+GlobalVariable.G_Browser+'.png'
 TestObject newFileObj
 
 try {

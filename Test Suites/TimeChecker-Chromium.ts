@@ -3,6 +3,7 @@
    <description></description>
    <name>TimeChecker-Chromium</name>
    <tag></tag>
+   <delayBetweenInstances>0</delayBetweenInstances>
    <executionMode>PARALLEL</executionMode>
    <maxConcurrentInstances>10</maxConcurrentInstances>
    <testSuiteRunConfigurations>
@@ -10,6 +11,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_JMFilters</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -19,6 +21,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_JMGeneric</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -28,6 +31,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_Folders</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -37,6 +41,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_JSOps</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -46,6 +51,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_ProfileFilesPage</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -55,6 +61,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_ProfileJSForm</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -64,6 +71,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_Files</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
@@ -73,6 +81,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_JS</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
@@ -82,6 +91,7 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>Chrome_JMActions</profileName>
+            <requireConfigurationData>false</requireConfigurationData>
             <runConfigurationId>Edge Chromium</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>

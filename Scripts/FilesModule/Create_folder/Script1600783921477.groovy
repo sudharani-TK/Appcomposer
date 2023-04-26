@@ -79,7 +79,7 @@ try {
 
 			String folder = FolderName.trim()
 			WebUI.delay(2)
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 			WebUI.delay(2)
 			TestObject createFolderNotification = CustomKeywords.'buildTestObj.CreateTestObjFiles.myTestObjFolderCreateNotification'(folder)
@@ -97,7 +97,7 @@ try {
 				extentTest.log(LogStatus.PASS, FolderName + ' - Not Created')
 				extentTest.log(LogStatus.FAIL)
 			}
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 			def fileItem = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(newFileObj, 20, extentTest, FolderName)
 			println(fileItem)
@@ -112,7 +112,7 @@ try {
 			WebUI.verifyElementPresent(findTestObject('FilesPage/SpecialChar_popup'), 3)
 			WebUI.click(findTestObject('Object Repository/FilesPage/btn_Cancel'))
 			WebUI.delay(2)
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 			WebUI.delay(2)
 			TestObject createFolderErrorNotification = CustomKeywords.'buildTestObj.CreateTestObjFiles.myTestObjFolderCreateErrorNotification'(FolderName)
@@ -129,7 +129,7 @@ try {
 				extentTest.log(LogStatus.PASS, FolderName + ' - Is Created')
 				extentTest.log(LogStatus.FAIL)
 			}
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 			def fileItem = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(newFileObj, 3, extentTest, FolderName)
 			println(fileItem)

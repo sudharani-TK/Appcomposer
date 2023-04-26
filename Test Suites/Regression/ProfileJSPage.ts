@@ -21,7 +21,7 @@
          <id>8b5a8b59-f1b5-4c1b-9001-f7276c0d1bed</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>13</value>
+            <value>1,2</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForProfiles</testDataId>
       </testDataLink>
@@ -79,7 +79,7 @@
          <id>72a11dba-cfe2-4d9f-bca0-04fb7ed76a2a</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>1-30</value>
+            <value>31,32</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForProfileSubmissions</testDataId>
       </testDataLink>

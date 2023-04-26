@@ -257,7 +257,7 @@ try
 				
 				WebUI.click(findTestObject('Access_Management/Confirm_button'))
 				
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 				
 				WebUI.delay(2)
@@ -435,7 +435,7 @@ try
 							WebUI.verifyElementPresent(findTestObject('Access_Management/test'),3)
 								extentTest.log(LogStatus.PASS, 'verify security role modified to test')
 								
-								TestObject role =WebUI.modifyObjectProperty(findTestObject('Access_Management/RoleinfoNew'),'text', 'equals', roleid, true)
+								TestObject role =WebUI.modifyObjectProperty(findTestObject('Access_Management/Roleinfo'),'text', 'equals', roleid, true)
 								WebUI.mouseOver(role)
 								WebUI.click(role)
 								extentTest.log(LogStatus.PASS, "Click on test role to delete" )
@@ -450,7 +450,7 @@ try
 								WebUI.click(findTestObject('Access_Management/Confirm_button'))
 								extentTest.log(LogStatus.PASS, "Click on confirm button" )
 								
-								WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+								WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 								extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 								WebUI.delay(2)
 								WebUI.verifyElementPresent(findTestObject('Access_Management/Role_Delete'), 5)

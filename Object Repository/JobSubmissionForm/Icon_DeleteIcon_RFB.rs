@@ -6,11 +6,12 @@
    <elementGuidId>c12db005-1270-4ca6-ac9c-7ba2065fe714</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@class='additional_file_options pull-right']//div[@id='delete_icon']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//div[@id=&quot;file_operations&quot;]/div[@id=&quot;delete_icon&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

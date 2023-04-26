@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'1 Users have been deleted successfully')]</value>
+         <value>//span[contains(text(),'Users have been deleted successfully')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -169,7 +169,7 @@ public class fileOperations_Icon {
 					result=true
 					extentTest.log(LogStatus.PASS, 'Verified Pasted File - '+ fileToCheck)
 				}
-			//	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			//	WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			//	extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 
 				if(TestCaseName.contains('Job Submission')) {
@@ -256,8 +256,9 @@ public class fileOperations_Icon {
 				op='Delete'
 				TestObject newFileObjVerify
 				def oriFileName
-				WebUI.delay(1)
-				WebUI.click(findTestObject('Object Repository/JobSubmissionForm/Icon_DeleteIcon_RFB'))
+				WebUI.delay(2)
+				WebUI.waitForElementVisible(findTestObject('Object Repository/JobSubmissionForm/Icon_DeleteIcon_Fileop'), 10)
+				WebUI.click(findTestObject('Object Repository/JobSubmissionForm/Icon_DeleteIcon_Fileop'))
 				WebUI.delay(2)
 				extentTest.log(LogStatus.PASS, 'Clicked on top menu icon -'+op)
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))

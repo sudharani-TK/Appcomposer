@@ -92,7 +92,7 @@ public class fileOperations {
 				break
 
 			case 'Open With':
-			println("HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII")
+				println("HIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII")
 				WebUI.mouseOver(findTestObject('FilesPage/ContextMenu_Openwith'))
 				WebUI.click(findTestObject('FilesPage/ContextMenu_Openwith'))
 				WebUI.mouseOver(findTestObject('FilesPage/span_Text Editor'))

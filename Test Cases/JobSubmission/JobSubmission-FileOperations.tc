@@ -35,6 +35,12 @@
       <value></value>
       <variableId>2452730a-fb63-4365-92a2-2ba74197dafc</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7e20caf-abd7-45d3-b8eb-a35fe4e133fb</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'ShellScript'</defaultValue>
       <description></description>
@@ -69,5 +75,12 @@
       <id>2452730a-fb63-4365-92a2-2ba74197dafc</id>
       <masked>false</masked>
       <name>renameFile</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f7e20caf-abd7-45d3-b8eb-a35fe4e133fb</id>
+      <masked>false</masked>
+      <name>Operation</name>
    </variable>
 </TestCaseEntity>

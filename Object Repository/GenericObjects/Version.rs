@@ -6,12 +6,11 @@
    <elementGuidId>9e5859ef-5f69-4491-ad37-6dca63d45588</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Version: PBSWORKS 2023.1.0')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[contains(text(),'Version: PBSWORKS 2021.1.2')]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

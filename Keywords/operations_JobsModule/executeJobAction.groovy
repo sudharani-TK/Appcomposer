@@ -71,7 +71,7 @@ public class executeJobAction {
 						extentTest.log(LogStatus.PASS, 'Deleting job  ')
 						extentTest.log(LogStatus.PASS, 'Verified Test case - AD-1486 - Job action: Delete job button validation')
 
-						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 						WebUI.delay(3)
 						isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobDelete'), 5)
 						println("notification status - "+isNotoficationPresent)
@@ -85,7 +85,7 @@ public class executeJobAction {
 						WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 						WebUI.delay(2)
 						extentTest.log(LogStatus.PASS, 'deleting job  ')
-						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 						WebUI.delay(3)
 						isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobDelete'), 5)
 						println("notification status - "+isNotoficationPresent)
@@ -99,23 +99,23 @@ public class executeJobAction {
 						WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 						WebUI.delay(2)
 						extentTest.log(LogStatus.PASS, 'deleting job  ')
-						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 						WebUI.delay(3)
 						isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobDelete'), 5)
 						println("notification status - "+isNotoficationPresent)
 						extentTest.log(LogStatus.PASS, 'Verified notification')
-						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
 						break
 
 					case 'CheckDelete':
 						extentTest.log(LogStatus.PASS, 'Check Delete')
-						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 						WebUI.delay(3)
 						isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobDelete'), 5)
 						println("notification status - "+isNotoficationPresent)
 						extentTest.log(LogStatus.PASS, 'Verified notification - after check Delte')
-						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+						WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 						result=isNotoficationPresent
 						break
 				}
@@ -150,7 +150,7 @@ public class executeJobAction {
 					println ("Filed not renamed to "+Renameto + " isElemenetPresent " + isElemenetPresent)
 					result=false
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 				return result
 				break
@@ -182,7 +182,7 @@ public class executeJobAction {
 				WebUI.click(findTestObject('FilesPage/btn_Save'))
 				WebUI.delay(3)
 				extentTest.log(LogStatus.PASS, 'Clicked on Save Button')
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				result=WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_FileCreation'), 5)
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 				return result
@@ -206,7 +206,7 @@ public class executeJobAction {
 					WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 					WebUI.delay(2)
 					extentTest.log(LogStatus.PASS, 'terminating job  ')
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					WebUI.delay(2)
 					isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobTerminate'), 5)
 					println("notification status - "+isNotoficationPresent)

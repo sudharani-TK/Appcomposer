@@ -208,7 +208,7 @@ public class fileViewerOperations {
 				extentTest.log(LogStatus.PASS, 'Clicked on Yes on Delete confirmation pop-up ')
 
 				String msg ="/stage/rohini/FilesModule/FileOps/'+fileName+' has been deleted successfully"
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 				WebUI.delay(2)
 				result = WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_DeleteFile'),5)
@@ -221,7 +221,7 @@ public class fileViewerOperations {
 					extentTest.log(LogStatus.PASS, '  Not pasted')
 					extentTest.log(LogStatus.FAIL)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 				if (TestCaseName.contains('tile view')) {
 					WebUI.delay(2)

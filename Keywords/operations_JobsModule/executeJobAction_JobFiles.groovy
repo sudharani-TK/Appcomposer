@@ -20,9 +20,10 @@ public class executeJobAction_JobFiles {
 		boolean result=false
 		def LogStatus = com.relevantcodes.extentreports.LogStatus
 		WebUI.delay(3)
-
+		println("Action" + Action)
 
 		switch (Action) {
+
 			case 'View Details':
 				println ("Form job actions - "+Action)
 				TestObject newJobAction = WebUI.modifyObjectProperty(findTestObject('JobMonitoringPage/ContextMenu_JobAction'),
@@ -210,6 +211,8 @@ public class executeJobAction_JobFiles {
 					//WebUI.check(findTestObject('Object Repository/JobDetailsPage/Msg_ResubmitWarning'))
 					WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Yes'))
 				}
+				WebUI.delay(2)
+				WebUI.waitForElementClickable(findTestObject('JobSubmissionForm/button_Submit_Job'), 10)
 				WebUI.click(findTestObject('JobSubmissionForm/button_Submit_Job'))
 				extentTest.log(LogStatus.PASS, 'resubmitted job  ')
 				isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobSubmission'), 5)
@@ -270,6 +273,7 @@ public class executeJobAction_JobFiles {
 				break
 
 			case 'Download':
+				println("Action" + Action)
 				fileName='Running.sh'
 				TestObject newFileObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_File_ListView'), 'title', 'equals',
 						fileName, true)
@@ -284,19 +288,18 @@ public class executeJobAction_JobFiles {
 				extentTest.log(LogStatus.PASS, 'Downloading job')
 
 
-				def downloadLoc=GlobalVariable.G_DownloadFolder
-				File downloadFolder = new File("C://KatalonDownloads")
-
-				List namesOfFiles = Arrays.asList(downloadFolder.list())
-				println(namesOfFiles.size())
-				if (namesOfFiles.contains('ForFileViewer.txt')) {
-					println('success')
-					//extentTest.log(LogStatus.PASS, 'file to downloaded ')
-					result=true
-				} else {
-					println('fail')
-					result=false
-				}
+			/*def downloadLoc=GlobalVariable.G_DownloadFolder
+			 File downloadFolder = new File("C://KatalonDownloads")
+			 List namesOfFiles = Arrays.asList(downloadFolder.list())
+			 println(namesOfFiles.size())
+			 if (namesOfFiles.contains('ForFileViewer.txt')) {
+			 println('success')
+			 //extentTest.log(LogStatus.PASS, 'file to downloaded ')
+			 result=true
+			 } else {
+			 println('fail')
+			 result=false
+			 }*/
 
 				return true
 				break

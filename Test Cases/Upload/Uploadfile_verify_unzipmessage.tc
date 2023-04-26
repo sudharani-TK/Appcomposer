@@ -5,6 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>59c6e5e1-e0cf-45f7-a5f5-42cda6a72a7f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4ea9fce1-f358-4cdd-8ebc-db0f6441f4ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb4e129b-d74a-4fc3-805c-55abeb31584a</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>GlobalVariable.G_FileToCreate</defaultValue>
       <description></description>

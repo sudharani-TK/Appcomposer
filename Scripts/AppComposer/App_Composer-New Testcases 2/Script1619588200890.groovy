@@ -278,8 +278,9 @@ try
 
 			WebUI.click(findTestObject('AppComposer/Save'))
 			extentTest.log(LogStatus.PASS, 'Click on save button')
+			WebUI.delay(3)
 
-			WebUI.verifyElementPresent(findTestObject('AppComposer/InputF'), 3)
+			WebUI.verifyElementPresent(findTestObject('AppComposer/InputF'), 10)
 		//WebUI.click(findTestObject('AppComposer/InputF'))
 			def filePath = (RunConfiguration.getProjectDir() + '/Upload/JobFiles/Running.sh')
 			def newFP=(new generateFilePath.filePath()).getFilePath(filePath)
@@ -309,7 +310,7 @@ try
 			WebUI.click(findTestObject('AppComposer/JobsTab'))
 			extentTest.log(LogStatus.PASS, 'Navigated to Jobs Tab')
 
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')*/
 
 
@@ -356,9 +357,9 @@ try
 		extentTest.log(LogStatus.PASS, 'Select the Existing app def '+ app)
 		WebUI.delay(3)
 	
-			WebUI.mouseOver(findTestObject('AppComposer/appname'))
+			WebUI.mouseOver(appdefname)
 
-			WebUI.click(findTestObject('AppComposer/appname'))
+			WebUI.click(appdefname)
 			extentTest.log(LogStatus.PASS, 'Click on ' + app + 'on left side')
 
 			WebUI.mouseOver(findTestObject('AppComposer/AppName'))
@@ -371,7 +372,16 @@ try
 			WebUI.setText(findTestObject('AppComposer/AppName'), '')
 			WebUI.setText(findTestObject('AppComposer/AppName'),'Renamenew')
 			extentTest.log(LogStatus.PASS, 'Rename the created app - Renamenew' )
-
+			WebUI.click(findTestObject('AppComposer/Executableinput'))
+			
+			extentTest.log(LogStatus.PASS, 'Click to add exec commands')
+			
+			WebUI.setText(findTestObject('AppComposer/Executableinput'), '')
+			
+			WebUI.setText(findTestObject('AppComposer/Executableinput'), exec)
+			
+		   extentTest.log(LogStatus.PASS, 'Add Exec commands - ' + exec)
+			
 			WebUI.click(findTestObject('AppComposer/Save'))
 			extentTest.log(LogStatus.PASS, 'Click on Save button')
 			WebUI.waitForElementPresent(findTestObject('Object Repository/AppComposer/AppSaved'), 5)
@@ -379,10 +389,11 @@ try
 			def notifn_rename = WebUI.getText(findTestObject('Object Repository/AppComposer/AppSaved'))
 
 			extentTest.log(LogStatus.PASS, 'Notification Generated ' + notifn_rename)
+				WebUI.delay(3)
 
 			WebUI.click(findTestObject('GenericObjects/TitleLink_Jobs'))
 			extentTest.log(LogStatus.PASS, 'Click on Jobs Tab')
-			WebUI.delay(3)
+			
 
 			result=WebUI.verifyElementPresent(findTestObject('AppComposer/Renamenew'), 10)
 			if(result)
@@ -427,6 +438,7 @@ try
 			def editnotification = WebUI.getText(findTestObject('Object Repository/AppComposer/AppSaved'))
 
 			extentTest.log(LogStatus.PASS, 'Notification Generated ' + editnotification)
+			WebUI.delay(3)
 
 			WebUI.click(findTestObject('GenericObjects/TitleLink_Jobs'))
 			extentTest.log(LogStatus.PASS, 'Click on Jobs Tab')

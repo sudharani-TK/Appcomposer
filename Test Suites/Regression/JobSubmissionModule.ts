@@ -118,7 +118,7 @@
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>06088c48-c331-4396-97c3-01d04194b342</variableId>
+         <variableId>f7e20caf-abd7-45d3-b8eb-a35fe4e133fb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

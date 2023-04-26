@@ -64,14 +64,14 @@
    <testCaseLink>
       <guid>09de45d5-c63b-4f78-acf2-59ea268e004b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/MultiFileFolder/MultiFolderOperations_WIP</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7d38a3ce-5564-4458-95dc-61fce07b5bff</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>28,29</value>
+            <value>27</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataJSMultiFileFolderOps</testDataId>
       </testDataLink>
@@ -162,7 +162,7 @@
    <testCaseLink>
       <guid>f8b7a73f-794b-48f2-9127-071a6708592b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/ProfileModule/CreateProfile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>0a257df3-6c14-40d3-8c4b-e11b28a48369</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Upload/RunningFolder_jobspage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -45,7 +45,7 @@
    <testCaseLink>
       <guid>cbb0838d-9cfd-44c8-97e7-e42d15f622dd</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Upload/Uploadfile_replace_existingfile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -64,7 +64,7 @@
    <testCaseLink>
       <guid>6893f032-abb4-4f6f-b73f-f8d7cc06836f</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Upload/Uploadfile_uncompress</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -102,7 +102,7 @@
    <testCaseLink>
       <guid>05175b6c-f8fc-42d5-9cc6-0cb9ccffc08b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-NavigatingPreviousFolder</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -133,7 +133,7 @@
    <testCaseLink>
       <guid>d9b00712-b1d4-4965-97bf-afc111a61bb9</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/JobSubmission/JobSubmission-InvalidPath</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

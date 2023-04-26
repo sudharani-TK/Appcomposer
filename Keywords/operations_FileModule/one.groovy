@@ -53,7 +53,7 @@ public class one {
 
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 				WebUI.delay(2)
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				WebUI.delay(2)
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 			//Verify notification
@@ -68,7 +68,7 @@ public class one {
 					extentTest.log(LogStatus.PASS, '  Not pasted')
 					extentTest.log(LogStatus.FAIL)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 				return result
 				break
@@ -121,7 +121,7 @@ public class one {
 				WebUI.delay(3)
 				extentTest.log(LogStatus.PASS, 'Clicked on Save Button')
 
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 				WebUI.delay(2)
 				TestObject createFileNotification = (new buildTestObj.CreateTestObjFiles()).myTestObjFileCreateNotification(Renameto)
@@ -139,7 +139,7 @@ public class one {
 					extentTest.log(LogStatus.PASS, Renameto + ' - Not Created')
 					extentTest.log(LogStatus.FAIL)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 
 				TestObject newFileObj

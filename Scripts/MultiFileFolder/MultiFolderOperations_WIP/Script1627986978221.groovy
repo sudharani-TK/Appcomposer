@@ -124,8 +124,10 @@ try {
 			WebUI.click(findTestObject('JobMonitoringPage/OutputFolder'))
 
 			extentTest.log(LogStatus.PASS, 'Click on Output Folder')
-
-			//WebUI.doubleClick(newFolderObj)
+			//WebUI.waitForElementVisible(findTestObject('Object Repository/JobMonitoringPage/newFolderObj'), 5, FailureHandling.STOP_ON_FAILURE)
+			WebUI.delay(2)
+		   // WebUI.doubleClick(findTestObject('Object Repository/JobMonitoringPage/newFolderObj'))
+			WebUI.doubleClick(newFolderObj)
 
 			WebUI.delay(1)
 

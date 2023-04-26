@@ -76,7 +76,7 @@ public class setPrefrenceHidden {
 			newFileObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_File_TileView'), 'title', 'equals', ".hiddenFile",true)
 			newFolderObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/FolderRowItem_TileView'), 'title', 'equals',".hiddenFolder", true )
 		} else {
-			newFileObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_File_ListView'), 'title', 'equals', ".hiddenFile",		true)
+			newFileObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/RowItem_File_ListView'), 'title', 'equals', ".hiddenFile",true)
 			newFolderObj = WebUI.modifyObjectProperty(findTestObject('FilesPage/FolderRowItem_ListView'), 'title','equals', ".hiddenFolder", true)
 		}
 
@@ -105,12 +105,16 @@ public class setPrefrenceHidden {
 		}
 	}
 	@Keyword
-	def navigateTo(String TestCaseName , String userChoice ,extentTest) {
+	def navigateTo(String TestCaseName , String userChoice ,extentTest,user) {
 
 		def navLocation =(new generateFilePath.filePath()).execLocation()
-		def location = navLocation + '/HiddenItems/'
-
-
+		def location
+		if(user=="admin") {
+			location = "/stage/pbsworks"+"/ForHidden/"
+		}
+		else {
+			location = navLocation + '/ForHidden/'
+		}
 		if(userChoice=='Input'||userChoice=='Output') {
 			WebUI.click(findTestObject('Object Repository/JobMonitoringPage/a_Reset'))
 			TestObject newJobFilter = WebUI.modifyObjectProperty(findTestObject('JobMonitoringPage/label_jobState'), 'text', 'equals',
@@ -122,6 +126,8 @@ public class setPrefrenceHidden {
 			WebUI.rightClick(newJobRow)
 			WebUI.click(findTestObject('JobMonitoringPage/ViewDetails_Jobs'))
 			extentTest.log(LogStatus.PASS, 'Click on view details job')
+			WebUI.delay(3)
+			WebUI.click(findTestObject('Object Repository/JobDetailsPage/Input_tab'))
 		}
 		if(userChoice=='Running') {
 			WebUI.click(findTestObject('Object Repository/JobMonitoringPage/a_Reset'))
@@ -134,10 +140,17 @@ public class setPrefrenceHidden {
 			WebUI.rightClick(newJobRow)
 			WebUI.click(findTestObject('JobMonitoringPage/ViewDetails_Jobs'))
 			extentTest.log(LogStatus.PASS, 'Click on view details job')
+
+			WebUI.delay(3)
+			WebUI.click(findTestObject('Object Repository/JobDetailsPage/Running_tab'))
+			WebUI.waitForElementVisible(findTestObject('Object Repository/NewJobPage/HiddenFolder_Jobdetailspage'), 10)
+			WebUI.doubleClick(findTestObject('Object Repository/NewJobPage/HiddenFolder_Jobdetailspage'))
 		}
 
 		switch (userChoice) {
 			case 'FilesTab':
+			case 'Files':
+				WebUI.delay(2)
 				def filesTab = (new customWait.WaitForElement()).WaitForelementPresent(findTestObject('GenericObjects/FilesTab_disabled'), 5,extentTest, 'Files Tab')
 				if (filesTab) {
 					WebUI.click(findTestObject('GenericObjects/TitleLink_Files'))
@@ -183,6 +196,8 @@ public class setPrefrenceHidden {
 			case 'Output':
 				WebUI.click(findTestObject('JobMonitoringPage/OutputFolder'))
 				extentTest.log(LogStatus.PASS, 'Click on Output Folder')
+			//	WebUI.waitForElementVisible(findTestObject('Object Repository/NewJobPage/HiddenFolder_Jobdetailspage'), 10)
+			//	WebUI.doubleClick(findTestObject('Object Repository/NewJobPage/HiddenFolder_Jobdetailspage'))
 				break
 			case 'Running':
 				WebUI.click(findTestObject('JobMonitoringPage/RunningFolder'))

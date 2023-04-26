@@ -5,6 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b7d58b4c-5fba-4142-824b-79efbb28f962</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b717dc8a-b8de-44cd-bde5-6c2f3419754b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>92cfa93b-f45c-4806-b38e-d3069f59b16b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cd27047a-f290-4db7-a132-87197302a1fb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c562e8d8-b57e-447b-a968-93b5d778e6ca</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'Running'</defaultValue>
       <description></description>
@@ -20,7 +44,7 @@
       <name>jobAction</name>
    </variable>
    <variable>
-      <defaultValue>'Test Case to verify upload zip file in Runnin Folder'</defaultValue>
+      <defaultValue>'Test Case to verify the Job Columns in the jobs page'</defaultValue>
       <description></description>
       <id>cd27047a-f290-4db7-a132-87197302a1fb</id>
       <masked>false</masked>

@@ -21,17 +21,16 @@ import org.openqa.selenium.remote.RemoteWebDriver
 import com.kms.katalon.core.exception.StepErrorException as StepErrorException
 import com.kms.katalon.core.util.KeywordUtil
 
-'Login into PAW '
-WebUI.callTestCase(findTestCase('Generic/Login'), [('username') : GlobalVariable.G_userName, ('password') : GlobalVariable.G_Password],
-FailureHandling.STOP_ON_FAILURE)
+WebDriver driver = DriverFactory.getWebDriver()
 
 
-String ReportFile=GlobalVariable.G_ReportName+".html"
-
-def extent=CustomKeywords.'generateReports.GenerateReport.create'(ReportFile,GlobalVariable.G_Browser,GlobalVariable.G_BrowserVersion)
-def LogStatus = com.relevantcodes.extentreports.LogStatus;
-
+ReportFile = (GlobalVariable.G_ReportName + '.html')
+def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
+def LogStatus = com.relevantcodes.extentreports.LogStatus
 def extentTest = extent.startTest(TestCaseName)
+CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
+//String screenShot='ExtentReports/'+TestCaseName+userChoice+GlobalVariable.G_Browser+'.png'
+TestObject newFileObj
 def result 
 WebUI.delay(2)
 try

@@ -12,7 +12,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus
 
-import CustomKeywords
+
 import internal.GlobalVariable
 
 public class MultifileOperations_JobSub_Icon {
@@ -50,7 +50,7 @@ public class MultifileOperations_JobSub_Icon {
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 			//WebUI.click(findTestObject('FilesPage/Icon_Close'))
 				WebUI.delay(2)
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				WebUI.delay(2)
 			//Verify notification
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_DeleteFile'),5)

@@ -81,7 +81,7 @@ public class multifolderOpsCntxtMn {
 				WebUI.delay(2)
 				WebUI.click(findTestObject('FilesPage/ContextMenu_FileGrid_Paste'))
 				WebUI.delay(3)
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 				WebUI.delay(2)
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_CopyFile'),5)
@@ -93,7 +93,7 @@ public class multifolderOpsCntxtMn {
 					extentTest.log(LogStatus.PASS, 'Files Not pasted')
 					extentTest.log(LogStatus.FAIL)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 
 				String myXpath=null;
@@ -182,7 +182,7 @@ public class multifolderOpsCntxtMn {
 				WebUI.click(findTestObject('FilesPage/ContextMenu_FileGrid_Paste'))
 				WebUI.delay(3)
 
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 				WebUI.delay(2)
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_CutFile'),5)
@@ -196,7 +196,7 @@ public class multifolderOpsCntxtMn {
 					extentTest.log(LogStatus.PASS, 'Files Not pasted')
 					extentTest.log(LogStatus.FAIL)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 
 				String myXpath=null;
@@ -247,7 +247,7 @@ public class multifolderOpsCntxtMn {
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 				WebUI.delay(2)
 				extentTest.log(LogStatus.PASS, 'Clicked on Yes on Delete confirmation pop-up ')
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 				msg = '5 item deleted successfully'
 				WebUI.delay(2)
@@ -261,7 +261,7 @@ public class multifolderOpsCntxtMn {
 					extentTest.log(LogStatus.PASS, '  Not pasted')
 					extentTest.log(LogStatus.FAIL)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 				String myXpath=null;
 				String myText=null;

@@ -69,7 +69,7 @@ public class folderOperations_Icon {
 				if(isFilePresent){
 					extentTest.log(LogStatus.PASS, 'Verified Pasted Folder - '+ fileToCheck)
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 				WebUI.delay(2)
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_CopyFile'),5)
@@ -107,7 +107,7 @@ public class folderOperations_Icon {
 				WebUI.click(findTestObject('FilesPage/TopMenuIcons_Paste'))
 				extentTest.log(LogStatus.PASS, 'Clicked on Paste Option')
 
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 
 				WebUI.delay(2)
@@ -127,7 +127,7 @@ public class folderOperations_Icon {
 				extentTest.log(LogStatus.PASS, 'Clicked on Context Menu Option for - '+Operation)
 
 				println"Clicked Compress"
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 
 				WebUI.delay(2)
@@ -135,7 +135,7 @@ public class folderOperations_Icon {
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_CompressFile'),5)
 				extentTest.log(LogStatus.PASS, "verified notification for operation - "+Operation)
 				println("notification status - "+result)
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
 				if (TestCaseName.contains('tile view')) {
 					WebUI.delay(2)
@@ -245,7 +245,7 @@ public class folderOperations_Icon {
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 			//WebUI.click(findTestObject('FilesPage/Icon_Close'))
 				WebUI.delay(2)
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				WebUI.delay(2)
 			//Verify notification
 				result = WebUI.verifyElementPresent(findTestObject('Notificactions/Notification_DeleteFile'),5)

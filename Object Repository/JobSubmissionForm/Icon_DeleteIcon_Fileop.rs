@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Icon_DeleteIcon_Fileop</name>
+   <tag></tag>
+   <elementGuidId>10b213d3-2301-4016-a653-551aba2a14f9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'focus_enable_class additional_file_options ' and @id = 'delete_icon']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fcffd061-bad9-4305-99c7-ac8c86b2cad8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>focus_enable_class additional_file_options </value>
+      <webElementGuid>4b31da0f-4d77-4079-9dcd-9aeb6f91c3a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>delete_icon</value>
+      <webElementGuid>21f702b5-e3a2-4b7f-a580-304ec11864c6</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

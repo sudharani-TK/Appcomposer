@@ -21,7 +21,7 @@
          <id>1f55dc43-3867-4203-90bb-3d5699f2e36f</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>11</value>
+            <value>1,2</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForProfiles</testDataId>
       </testDataLink>
@@ -79,7 +79,7 @@
          <id>3aeb5b86-e6e0-4013-ae1f-b9c4fa9befa4</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value>1</value>
+            <value>25</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForProfileSubmissions</testDataId>
       </testDataLink>
@@ -130,7 +130,7 @@
          <combinationType>ONE</combinationType>
          <id>c72608c6-12cd-4667-91cf-9b6146e0a52b</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>SPECIFIC</iterationType>
             <value>1-20</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForProfiles</testDataId>

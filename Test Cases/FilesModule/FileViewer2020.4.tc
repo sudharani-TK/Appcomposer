@@ -5,6 +5,24 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1e98d91f-a40e-442f-8bdc-add0278948e0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>022826e7-4f7e-4c27-8f7c-da4fa281a867</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>160b0f6c-199d-4e5c-8d08-4e99a9018074</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a5a51141-ab78-4328-838e-a0c015f8caf1</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'RunJob.sh'</defaultValue>
       <description></description>

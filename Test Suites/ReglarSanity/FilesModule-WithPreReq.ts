@@ -25,6 +25,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/FileCreate</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>54afcc6e-ab4f-4c6f-9721-f72e6249924d</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -58,6 +59,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/FilesOps</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>98ae1009-2546-4b35-82a6-c39fc1879f15</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -91,6 +93,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/FilesOps</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>53c47a54-47a5-481a-8925-6490229ed224</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -124,6 +127,7 @@
          </iterationEntity>
          <testDataId>Data Files/Sanity/FileViewer</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>b0d439b5-b148-4dda-a077-ab90afcab37e</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -163,6 +167,7 @@
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForBookMarks</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId>8797a7d9-dded-4b1e-b6a9-67b14f5aeb66</testDataLinkId>
          <type>DATA_COLUMN</type>

@@ -37,13 +37,14 @@ ReportFile = (GlobalVariable.G_ReportName + '.html')
 def extent = CustomKeywords.'generateReports.GenerateReport.create'(ReportFile, GlobalVariable.G_Browser, GlobalVariable.G_BrowserVersion)
 
 def LogStatus = com.relevantcodes.extentreports.LogStatus
-
 def extentTest = extent.startTest(TestCaseName)
+
 CustomKeywords.'toLogin.ForLogin.Login'(extentTest)
 
 String screenShot = ((('ExtentReports/' + TestCaseName) + userChoice) + GlobalVariable.G_Browser) + '.png'
 
 def result
+
 
 WebUI.delay(2)
 
@@ -217,9 +218,10 @@ try {
 
             extentTest.log(LogStatus.PASS, 'Navigated to Jobs Tab')
 
-            WebUI.verifyElementNotPresent(findTestObject('AppComposer/TestSpace'), 3)
+            WebUI.verifyElementNotPresent(findTestObject('AppComposer/TestSpace'), 10)
 
             extentTest.log(LogStatus.PASS, ('Verify app ' + app) + ' not present in Jobs page')
+			WebUI.delay(2)
 
             WebUI.click(findTestObject('Preferences/Profiletab'))
 
@@ -238,7 +240,7 @@ try {
 
             extentTest.log(LogStatus.PASS, 'Navigated to Jobs Tab')
 
-            result=WebUI.verifyElementPresent(findTestObject('AppComposer/TestSpace'), 10)
+            result=WebUI.verifyElementPresent(findTestObject('AppComposer/TestSpace'), 20)
 			if (result)
 				{
 			    extentTest.log(LogStatus.PASS, ('Verify app ' + app) + ' on Jobs page')
@@ -288,7 +290,7 @@ try {
 
             extentTest.log(LogStatus.PASS, 'Verify delete app notification')
 
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
             extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 
@@ -308,7 +310,7 @@ try {
                 extentTest.log(LogStatus.FAIL)
             }
             
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 
             extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 
@@ -469,7 +471,7 @@ try {
 
             extentTest.log(LogStatus.PASS, 'Click on save button')
 
-            WebUI.verifyElementPresent(findTestObject('AppComposer/InputF'), 3)
+            WebUI.verifyElementPresent(findTestObject('AppComposer/InputF'), 20)
 
             //WebUI.click(findTestObject('AppComposer/InputF'))
             def filePath = RunConfiguration.getProjectDir() + '/Upload/JobFiles/Running.sh'
@@ -506,7 +508,7 @@ try {
 
             extentTest.log(LogStatus.PASS, 'Navigated to Jobs Tab')
 
-            WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+            WebUI.click(findTestObject('null'))
 
             extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 
@@ -653,6 +655,7 @@ try {
             WebUI.uploadFile(findTestObject('AppComposer/InputF'), newFP)
 
             extentTest.log(LogStatus.PASS, 'Upload input file')
+			WebUI.delay(3)
 
             WebUI.click(findTestObject('AppComposer/Submit_btn'))
 

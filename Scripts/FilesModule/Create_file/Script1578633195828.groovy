@@ -87,7 +87,7 @@ try {
 	{
 		case 'Positive':
 
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 			WebUI.delay(2)
 			TestObject createFileNotification = CustomKeywords.'buildTestObj.CreateTestObjFiles.myTestObjFileCreateNotification'(fileName)
@@ -105,7 +105,7 @@ try {
 				extentTest.log(LogStatus.PASS, fileName + ' - Not Created')
 				extentTest.log(LogStatus.FAIL)
 			}
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 			def fileItem = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(newFileObj, 20, extentTest, fileName)
 			println(fileItem)
@@ -120,7 +120,7 @@ try {
 			WebUI.verifyElementPresent(findTestObject('FilesPage/SpecialChar_popup'), 3)
 			WebUI.click(findTestObject('Object Repository/FilesPage/btn_Cancel'))
 			WebUI.delay(2)
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to open Notification Panel')
 			WebUI.delay(2)
 			TestObject createFolderErrorNotification = CustomKeywords.'buildTestObj.CreateTestObjFiles.myTestObjFolderCreateErrorNotification'(fileName)
@@ -137,7 +137,7 @@ try {
 				extentTest.log(LogStatus.PASS, fileName + ' - Is Created')
 				extentTest.log(LogStatus.FAIL)
 			}
-			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			extentTest.log(LogStatus.PASS, 'Click on Notification button to close Notification Panel')
 			def fileItem = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(newFileObj, 3, extentTest, fileName)
 			println(fileItem)

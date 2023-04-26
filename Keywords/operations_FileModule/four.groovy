@@ -44,7 +44,7 @@ public class four {
 				WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 				WebUI.delay(2)
 				extentTest.log(LogStatus.PASS, 'deleting job  ')
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				WebUI.delay(3)
 				def isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobDelete'), 5)
 				println("notification status - "+isNotoficationPresent)

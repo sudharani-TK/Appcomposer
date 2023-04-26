@@ -76,7 +76,7 @@ public class executeJobAction_JobFiles_Operations {
 					WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 					WebUI.delay(2)
 					extentTest.log(LogStatus.PASS, 'Deleting file   ')
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					WebUI.delay(3)
 					isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Object Repository/Notificactions/Notification_DeleteFile'), 5)
 					println("notification status - "+isNotoficationPresent)
@@ -120,7 +120,7 @@ public class executeJobAction_JobFiles_Operations {
 					println ("Filed not renamed to "+Renameto + " isElemenetPresent " + isElemenetPresent)
 					result=false
 				}
-				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+				WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 				extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 				return result
 				break
@@ -176,7 +176,7 @@ public class executeJobAction_JobFiles_Operations {
 					WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Cancel'))
 					extentTest.log(LogStatus.PASS, "Click on Cancel button to return to page " )
 
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					result=WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_Duplicate'), 5)
 					def text4 = WebUI.getText(findTestObject('Object Repository/Notificactions/Notification_Duplicate'))
 
@@ -190,7 +190,7 @@ public class executeJobAction_JobFiles_Operations {
 			 extentTest.log(LogStatus.PASS, 'NewFile name -   '+newfile1)
 			 WebUI.click(findTestObject('Object Repository/JobMonitoringPage/button_Cancel'))
 			 extentTest.log(LogStatus.PASS, "Click on Cancel button" )
-			 WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+			 WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 			 result=WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_Duplicate'), 5)
 			 def text4 = WebUI.getText(findTestObject('Object Repository/Notificactions/Notification_Duplicate'))
 			 extentTest.log(LogStatus.PASS, 'Notification Generated ' + text4)
@@ -206,7 +206,7 @@ public class executeJobAction_JobFiles_Operations {
 					WebUI.click(findTestObject('FilesPage/btn_Save'))
 					WebUI.delay(3)
 					extentTest.log(LogStatus.PASS, 'Clicked on Save Button')
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					result=WebUI.verifyElementPresent(findTestObject('Object Repository/Notificactions/Notification_FileCreation'), 5)
 					extentTest.log(LogStatus.PASS, "Opened Notification Panel" )
 				}
@@ -230,7 +230,7 @@ public class executeJobAction_JobFiles_Operations {
 					WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 					WebUI.delay(2)
 					extentTest.log(LogStatus.PASS, 'terminating job  ')
-					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction'))
+					WebUI.click(findTestObject('Landing_Page/Btn_Notifiction2'))
 					WebUI.delay(2)
 					isNotoficationPresent=WebUI.waitForElementPresent(findTestObject('Notificactions/Notification_JobTerminate'), 5)
 					println("notification status - "+isNotoficationPresent)
