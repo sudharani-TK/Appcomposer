@@ -96,14 +96,14 @@
       <name>userChoice</name>
    </variable>
    <variable>
-      <defaultValue>['Both', 'BothIcon', 'Files', 'FilesIcon', 'Folders', 'FoldersIcon']</defaultValue>
+      <defaultValue>['BothIcon', 'Both', 'FilesIcon', 'Files', 'FoldersIcon', 'Folders']</defaultValue>
       <description></description>
       <id>51ed11e4-36f4-48c8-b4af-e962aaa7ab35</id>
       <masked>false</masked>
       <name>Jobnamelist</name>
    </variable>
    <variable>
-      <defaultValue>['MultipleFolderFilesJS', 'MultipleFolderFilesIconsJS', 'MultipleFilesJS', 'MultipleFilesIconsJS', 'MultipleFolderJS', 'MultipleFolderIconsJS']</defaultValue>
+      <defaultValue>['MultipleFolderFilesIconsJS', 'MultipleFolderFilesJS', 'MultipleFilesIconsJS', 'MultipleFilesJS', 'MultipleFolderIconsJS', 'MultipleFolderJS']</defaultValue>
       <description></description>
       <id>36927cdc-cfcf-431a-9763-6fd5a4cdef5e</id>
       <masked>false</masked>
