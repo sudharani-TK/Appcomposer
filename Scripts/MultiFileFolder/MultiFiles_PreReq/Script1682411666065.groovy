@@ -69,6 +69,10 @@ try {
 	
 	for(int i=0;i<7;i++) {
 	WebUI.click(findTestObject('Object Repository/JobSubmissionForm/TxtBx_JobName'))
+	WebUI.delay(2)
+	WebUI.sendKeys(findTestObject('JobSubmissionForm/TxtBx_JobName'), Keys.chord(Keys.CONTROL, 'a'))
+	WebUI.sendKeys(findTestObject('JobSubmissionForm/TxtBx_JobName'), Keys.chord(Keys.BACK_SPACE))
+	WebUI.delay(2)
 	WebUI.setText(findTestObject('Object Repository/JobSubmissionForm/TxtBx_JobName'),Jobnamelist[i])
 	
 	
@@ -92,7 +96,7 @@ try {
 		
 		 def submitBtn=(new customWait.WaitForElement()).WaitForelementPresent (findTestObject('JobSubmissionForm/button_Submit_Job'), 10,extentTest,'SubmitButton')
 		 
-		 for( int j=0; j<=2;j++) {
+		 for( int j=1; j<=2;j++) {
 		 if(submitBtn) {
 			 WebUI.delay(2)
 			 WebUI.click(findTestObject('JobSubmissionForm/button_Submit_Job'))
