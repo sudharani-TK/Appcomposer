@@ -52,7 +52,7 @@ try {
 	WebUI.sendKeys(findTestObject('Object Repository/FilesPage/textBx_FilePath'), Keys.chord(Keys.ENTER))
 
 	def jobid
-	jobid =CustomKeywords.'preReq.jobSubmissionForPreReq.JSPreReq'(newFPOpti, 'Optistruct',extentTest)
+	jobid =CustomKeywords.'todelete_preReq_Old.jobSubmissionForPreReq.JSPreReq'(newFPOpti, 'Optistruct',extentTest)
 	WebUI.click(findTestObject('GenericObjects/TitleLink_Jobs'))
 
 }

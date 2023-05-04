@@ -41,7 +41,7 @@ try {
 	WebUI.click(findTestObject('Object Repository/FilesPage/Icon_EditFilePath'))
 	WebUI.setText(findTestObject('Object Repository/FilesPage/textBx_FilePath'), location)
 	WebUI.sendKeys(findTestObject('Object Repository/FilesPage/textBx_FilePath'), Keys.chord(Keys.ENTER))
-	def jobid =CustomKeywords.'preReq.jobSubmissionForPreReq.JSPreReq'(p1, 'RADIOSS-SMP',extentTest)
+	def jobid =CustomKeywords.'todelete_preReq_Old.jobSubmissionForPreReq.JSPreReq'(p1, 'RADIOSS-SMP',extentTest)
 
 }
 catch (Exception ex) {

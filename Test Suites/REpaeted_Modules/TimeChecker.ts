@@ -45,7 +45,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Regression/JSFileOps</testSuiteEntity>
+         <testSuiteEntity>Test Suites/REpaeted_Modules/JSFileOps</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -165,7 +165,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Regression/JSFileOps</testSuiteEntity>
+         <testSuiteEntity>Test Suites/REpaeted_Modules/JSFileOps</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

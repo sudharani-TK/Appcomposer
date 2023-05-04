@@ -49,11 +49,11 @@ try {
 	
 	def jobidSH
 	def jobidPY
-	jobidSH = CustomKeywords.'preReq.jobSubmissionForPreReq.JSMulti'(newFPSHR, AppName,extentTest)
+	jobidSH = CustomKeywords.'todelete_preReq_Old.jobSubmissionForPreReq.JSMulti'(newFPSHR, AppName,extentTest)
 	extentTest.log(LogStatus.PASS,"Submitted job for .sh extension")
 	extentTest.log(LogStatus.PASS,"job id for .sh extension - "+ jobidSH)
 
-	jobidPY=CustomKeywords.'preReq.jobSubmissionForPreReq.JSMulti'(newFPSHFail, AppName,extentTest)
+	jobidPY=CustomKeywords.'todelete_preReq_Old.jobSubmissionForPreReq.JSMulti'(newFPSHFail, AppName,extentTest)
 	extentTest.log(LogStatus.PASS,"Submitted job for .py extension")
 	extentTest.log(LogStatus.PASS,"job id for .py extension - "+ jobidPY)
 	jobsTab = CustomKeywords.'customWait.WaitForElement.WaitForelementPresent'(findTestObject('GenericObjects/TitleLink_Jobs'),20,extentTest,'Jobs Tab')

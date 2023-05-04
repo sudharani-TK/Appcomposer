@@ -74,13 +74,13 @@ try {
 
 
 	def jobid
-        jobid=CustomKeywords.'preReq.jobSubmissionForPreReq.JSPreReq'(newFPSHR, AppName)
+        jobid=CustomKeywords.'todelete_preReq_Old.jobSubmissionForPreReq.JSPreReq'(newFPSHR, AppName)
 
-        jobid=CustomKeywords.'preReq.jobSubmissionForPreReq.JSPreReq'(newFPSHFail, AppName)
+        jobid=CustomKeywords.'todelete_preReq_Old.jobSubmissionForPreReq.JSPreReq'(newFPSHFail, AppName)
 
-        jobid=CustomKeywords.'preReq.jobSubmissionForPreReq.JSPreReq'(newFPOpti, 'Optistruct')
+        jobid=CustomKeywords.'todelete_preReq_Old.jobSubmissionForPreReq.JSPreReq'(newFPOpti, 'Optistruct')
 
-        jobid=CustomKeywords.'preReq.jobSubmissionForPreReq.JSPreReq'(p1, 'RADIOSS-SMP')
+        jobid=CustomKeywords.'todelete_preReq_Old.jobSubmissionForPreReq.JSPreReq'(p1, 'RADIOSS-SMP')
     
 		println("==============================================================")
 		println (' last jobid ---- ' +jobid)
