@@ -168,52 +168,6 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>ac65c0ad-1245-4318-bf76-92cc15ffdc42</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission-FolderOpearations-obsolete</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>b2f00e92-8922-4397-b961-552bf6683f97</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Regression/TestDataForJobSubmission-FolderOps</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6f506960-4f5e-4b84-bed7-671f2d49a683</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>b2f00e92-8922-4397-b961-552bf6683f97</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>FolderName</value>
-         <variableId>beba9736-9fee-4ef0-a2a2-27db57f47b16</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>b2f00e92-8922-4397-b961-552bf6683f97</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>TestCaseName</value>
-         <variableId>eb71c3c9-130e-4abc-8556-4951c50f08d4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>b2f00e92-8922-4397-b961-552bf6683f97</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Operation</value>
-         <variableId>ca7dce17-ea75-48b5-a618-53771420831e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>45359e71-21c9-42bc-9d9a-ea2558c293ec</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>c32bb7da-d3b6-4122-9ce7-00f93cac6d04</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

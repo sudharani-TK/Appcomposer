@@ -75,7 +75,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Regression/JMActions</testSuiteEntity>
+         <testSuiteEntity>Test Suites/REpaeted_Modules/JMActions</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -85,7 +85,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>false</runEnabled>
-         <testSuiteEntity>Test Suites/Regression/JMFilters</testSuiteEntity>
+         <testSuiteEntity>Test Suites/REpaeted_Modules/JMFilters</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>

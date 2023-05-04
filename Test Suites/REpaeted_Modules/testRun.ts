@@ -12,31 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>e7def78f-5f8e-4830-887a-1d6960f0e70f</testSuiteGuid>
    <testCaseLink>
-      <guid>df2f0a9c-c10b-4bba-9428-6c66d4dd6cd5</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
-      <testCaseId>Test Cases/FilesModule/Create_folder_old</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>SCRIPT_VARIABLE</type>
-         <value>&quot;list&quot;</value>
-         <variableId>ee5dd06b-fe53-4cd7-b0ae-9d5aa0e1949d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>SCRIPT_VARIABLE</type>
-         <value>&quot;list view&quot;</value>
-         <variableId>7d839b7d-abd5-48a9-9050-61b7d5242a7c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>44855711-d67d-4932-bf58-df854a599660</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>09de45d5-c63b-4f78-acf2-59ea268e004b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -45,7 +20,7 @@
          <combinationType>ONE</combinationType>
          <id>7d38a3ce-5564-4458-95dc-61fce07b5bff</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
+            <iterationType>ALL</iterationType>
             <value>19</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataJSMultiFileFolderOps</testDataId>

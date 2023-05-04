@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>MultiFiles</name>
+   <name>FileOperations</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,38 +10,39 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>22c6c816-6318-450f-863f-8e5911dde05e</testSuiteGuid>
+   <testSuiteGuid>69c37363-b103-4cd6-bb9c-b23ddc6552b9</testSuiteGuid>
    <testCaseLink>
-      <guid>9ff9cf19-7d6c-4161-8556-11ca453d1073</guid>
+      <guid>64c95f42-ae5a-4e7d-98c5-35b340086f23</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/FilesModule/MultiFileOperations</testCaseId>
+      <testCaseId>Test Cases/FilesModule/FileOperations</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>c8a6f8e8-a3eb-4572-8aed-a950fd474b1e</id>
+         <id>92fa3189-a1cb-4052-811f-673ac2cf8b96</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-3</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>
       </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>c8a6f8e8-a3eb-4572-8aed-a950fd474b1e</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>FileName</value>
-         <variableId>6422f61a-59e5-4498-a9c7-aed432c255a5</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c8a6f8e8-a3eb-4572-8aed-a950fd474b1e</testDataLinkId>
+         <testDataLinkId>92fa3189-a1cb-4052-811f-673ac2cf8b96</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>TestCaseName</value>
-         <variableId>fbd214bf-d998-46fb-956c-96b9951450fa</variableId>
+         <variableId>1d7255ee-2b97-45de-860a-6d4dff97674d</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>c8a6f8e8-a3eb-4572-8aed-a950fd474b1e</testDataLinkId>
+         <testDataLinkId>92fa3189-a1cb-4052-811f-673ac2cf8b96</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>FileName</value>
+         <variableId>9db2c348-847f-41f0-800b-d8b322772339</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>92fa3189-a1cb-4052-811f-673ac2cf8b96</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Operation</value>
-         <variableId>3c621b68-f5ca-4437-875c-7b8b34a301f4</variableId>
+         <variableId>7b950ced-8cb3-43ce-a472-81090d4db7f5</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

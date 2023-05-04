@@ -15,7 +15,7 @@
       <guid>000c3bc4-9ce7-42c7-9679-30ba4900c132</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Change_password_feature/Login_Change_password</testCaseId>
+      <testCaseId>Test Cases/Changepassword/Login_Change_password</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2fcbf871-d731-4354-9944-5685b7becb40</id>
@@ -73,7 +73,7 @@
       <guid>38ee30c7-5204-414b-a537-07a6e814fc80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Change_password_feature/close_option</testCaseId>
+      <testCaseId>Test Cases/Changepassword/close_option</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -98,7 +98,7 @@
       <guid>cbda58f9-5b0c-4d02-adb4-54ad6eb9da19</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Change_password_feature/Fields_Validation</testCaseId>
+      <testCaseId>Test Cases/Changepassword/Fields_Validation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bc86f2d2-6530-4369-a0a4-2358580a03b9</id>
@@ -162,7 +162,7 @@
       <guid>df35f6f1-1929-436e-bdbe-39709a2e2534</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Change_password_feature/Functionality</testCaseId>
+      <testCaseId>Test Cases/Changepassword/Functionality</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>cf5e51e9-a0e4-4d96-9c33-42c131781b6f</id>
