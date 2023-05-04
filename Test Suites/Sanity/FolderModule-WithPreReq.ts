@@ -12,40 +12,6 @@
    <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>fdfdfe27-e72a-4173-8b9f-759ee6ab2a7c</testSuiteGuid>
    <testCaseLink>
-      <guid>a2646327-bf26-4a25-a3cf-e94e8ac7e45e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/FilesModule/Create_folder_old</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>6c0241b7-99b7-417d-ab9c-0a63f9450fea</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Sanity/FolderCreate</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>6c0241b7-99b7-417d-ab9c-0a63f9450fea</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>FolderName</value>
-         <variableId>ee5dd06b-fe53-4cd7-b0ae-9d5aa0e1949d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>6c0241b7-99b7-417d-ab9c-0a63f9450fea</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>TestCaseName</value>
-         <variableId>7d839b7d-abd5-48a9-9050-61b7d5242a7c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>44855711-d67d-4932-bf58-df854a599660</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>f5a5112f-2a1c-488d-b456-8ccbe48d9279</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

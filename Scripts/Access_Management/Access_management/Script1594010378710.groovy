@@ -471,11 +471,13 @@ try {
             WebUI.click(findTestObject('Access_Management/Add_user'))
 
             extentTest.log(LogStatus.PASS, 'Click on users')
+			WebUI.delay(2)
 
             TestObject user = WebUI.modifyObjectProperty(findTestObject('Access_Management/Userinfo'), 'text', 'equals', 
                 username, true)
 
             WebUI.doubleClick(user)
+			WebUI.delay(2)
 
             extentTest.log(LogStatus.PASS, 'Click on user')
 

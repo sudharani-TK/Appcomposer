@@ -88,7 +88,7 @@
          <combinationType>ONE</combinationType>
          <id>72769dfa-ce6b-473f-b5fe-2b3c6fba3027</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>SPECIFIC</iterationType>
             <value>1-10</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForFileOperations</testDataId>

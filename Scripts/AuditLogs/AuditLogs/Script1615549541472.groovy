@@ -121,11 +121,14 @@ try {
             WebUI.click(findTestObject('Object Repository/AuditLogs/Calendar_Icon_From_date'))
 
             extentTest.log(LogStatus.PASS, ' Click on  the Calendar icon::  From Date:: ')
+			WebUI.delay(2)
+			WebUI.click(findTestObject('Object Repository/AuditLogs/From_date_fwd_arrow'))
 
             //From Date: Click calendar icon and verify that forward arrow is disabled & only backward arrow is enabled
             boolean res1 = WebUI.verifyElementClickable(findTestObject('Object Repository/AuditLogs/From_date_back_arrow'))
 
             boolean res2 = WebUI.verifyElementNotClickable(findTestObject('Object Repository/AuditLogs/From_date_fwd_arrow'))
+		
 
             if (res1 && res2) {
                 extentTest.log(LogStatus.PASS, ' verify that forward arrow is disabled & only backward arrow is enabled  ')
@@ -137,12 +140,17 @@ try {
             extentTest.log(LogStatus.PASS, ' Click on  the Calendar icon::  To Date:: ')
 
             WebUI.delay(4)
+			
 
             WebUI.click(findTestObject('Object Repository/AuditLogs/Calender_Icon_To_date'))
+			WebUI.delay(2)
+			
+			WebUI.click(findTestObject('Object Repository/AuditLogs/To_date_back_arrrow'))
 
             res1 = WebUI.verifyElementNotClickable(findTestObject('Object Repository/AuditLogs/To_date_back_arrrow'))
 
             res2 = WebUI.verifyElementClickable(findTestObject('Object Repository/AuditLogs/To_date_fwd_arrow'))
+			
 
             if (res1 && res2) {
                 extentTest.log(LogStatus.PASS, ' verify that backward arrow is disabled & only forward arrow is enabled  ')
