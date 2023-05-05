@@ -61,7 +61,7 @@
       <guid>51aded17-db62-4027-bfd0-77dac17d5180</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobMonitoring/JobActions_ForJobStates_Topmenu_Icon_NotJobOwner</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobActions_ForJobStates_Topmenu_Icon_NotJobOwner</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>db2a179e-363b-49ab-a7bb-22cfe5090a90</id>

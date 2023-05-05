@@ -125,7 +125,7 @@
       <guid>10dd1fc7-0ce9-4195-ae0e-d6db1c036db3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission-FileOperations-Topmenuicons</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobSubmission-FileOperations-Topmenuicons</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a0501715-fccd-4d76-8722-f3925ce43985</id>
@@ -171,7 +171,7 @@
       <guid>c32bb7da-d3b6-4122-9ce7-00f93cac6d04</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission-FolderOperations-Topmenuicons</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobSubmission-FolderOperations-Topmenuicons</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ff3bcf4a-c4ee-4d91-b2d5-0667d00d7820</id>
@@ -366,7 +366,7 @@
       <guid>66fef6b7-032b-4450-8ddc-a863acf2a43c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission_Helpbox_Enabled</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobSubmission_Helpbox_Enabled</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -415,7 +415,7 @@
       <guid>114964af-6579-49fc-a8c5-688111a4db1a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission_Helpbox_Disabled</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobSubmission_Helpbox_Disabled</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -464,7 +464,7 @@
       <guid>08fcc9f9-5c56-4e64-bd9d-48aac86f7066</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobMonitoring/JobSubmissionForLastSubmitted</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobSubmissionForLastSubmitted</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

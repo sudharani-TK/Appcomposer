@@ -61,7 +61,7 @@
       <guid>24f34fc7-8b84-43d2-83a9-3471ef958b94</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/HiddenFile/HiddenFile_JobDetails</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/HiddenFile/HiddenFile_JobDetails</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6be89bec-cb21-4b29-8c05-fed75c133858</id>

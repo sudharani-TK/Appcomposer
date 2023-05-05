@@ -115,6 +115,9 @@ public class setPrefrenceHidden {
 		else {
 			location = navLocation + '/ForHidden/'
 		}
+		WebUI.click(findTestObject('JobMonitoringPage/JM_SearchBox'))
+		//WebUI.setText(findTestObject('JobMonitoringPage/JM_SearchBox'),AllJobsUser)
+		WebUI.sendKeys(findTestObject('JobMonitoringPage/JM_SearchBox'), 'hiddenfiles')
 		if(userChoice=='Input'||userChoice=='Output') {
 			WebUI.click(findTestObject('Object Repository/JobMonitoringPage/a_Reset'))
 			TestObject newJobFilter = WebUI.modifyObjectProperty(findTestObject('JobMonitoringPage/label_jobState'), 'text', 'equals',

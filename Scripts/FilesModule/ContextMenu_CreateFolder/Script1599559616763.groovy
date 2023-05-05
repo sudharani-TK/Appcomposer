@@ -157,7 +157,7 @@ try
 			break;
 	}
 	if (GlobalVariable.G_Browser == 'Edge') {
-		WebUI.callTestCase(findTestCase('Generic/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('XRepeated_TC/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 	}*/
 
 

@@ -28,7 +28,7 @@ import java.awt.event.KeyEvent as KeyEvent
 
 'Login into PAW '
 /*
-WebUI.callTestCase(findTestCase('Generic/Login'), [('username') : GlobalVariable.G_AdminUser, ('password') : GlobalVariable.G_AdminPasswd],
+WebUI.callTestCase(findTestCase('XRepeated_TC/Login'), [('username') : GlobalVariable.G_AdminUser, ('password') : GlobalVariable.G_AdminPasswd],
 FailureHandling.STOP_ON_FAILURE)
 */
 
@@ -131,7 +131,7 @@ try
 	
 		
 		if (GlobalVariable.G_Browser == 'IE') {
-		WebUI.callTestCase(findTestCase('Generic/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('XRepeated_TC/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 
 }

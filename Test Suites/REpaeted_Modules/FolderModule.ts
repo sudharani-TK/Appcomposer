@@ -15,7 +15,7 @@
       <guid>7d489355-efb5-4a58-b6c7-25c152ea7dfd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-Script-FolderOps</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/PreReq_profiles/Pre-Req-Script-FolderOps</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

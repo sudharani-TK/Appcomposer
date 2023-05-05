@@ -15,7 +15,7 @@
       <guid>2f3c3e69-8373-4d3b-8e47-814738577ae0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder2021.1.1/Application_Name</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/Folder2021.1.1/Application_Name</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -34,7 +34,7 @@
       <guid>d22b7814-3737-4001-9355-099ce0589658</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder2021.1.1/App_Composer</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/Folder2021.1.1/App_Composer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -53,7 +53,7 @@
       <guid>092d99c9-8080-4b82-a7b3-5554cc47e61d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Folder2021.1.1/JobSubmission_ShowAll</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/Folder2021.1.1/JobSubmission_ShowAll</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

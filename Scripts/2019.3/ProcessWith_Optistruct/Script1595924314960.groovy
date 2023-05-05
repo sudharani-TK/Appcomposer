@@ -128,7 +128,7 @@ try {
 	extentTest.log(LogStatus.PASS, "Verified notification for job submission ")
 
 	if (GlobalVariable.G_Browser == 'IE') {
-		WebUI.callTestCase(findTestCase('Generic/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+		WebUI.callTestCase(findTestCase('XRepeated_TC/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
 	}
 }
 catch (Exception ex) {

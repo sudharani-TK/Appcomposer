@@ -19,7 +19,7 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
 /*
 'Login into PAW '
-WebUI.callTestCase(findTestCase('Generic/Login'), [('username') : GlobalVariable.G_userName, ('password') : GlobalVariable.G_Password],
+WebUI.callTestCase(findTestCase('XRepeated_TC/Login'), [('username') : GlobalVariable.G_userName, ('password') : GlobalVariable.G_Password],
 FailureHandling.STOP_ON_FAILURE)
 */
 WebDriver driver = DriverFactory.getWebDriver()

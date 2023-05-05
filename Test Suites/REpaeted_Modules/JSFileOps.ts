@@ -92,7 +92,7 @@
       <guid>087d050a-834e-4c93-8679-3aa572c9d9cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission-FileOperations-Topmenuicons</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobSubmission-FileOperations-Topmenuicons</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>17cf1cbb-b7b5-4057-b63f-9f8b2737ee58</id>
@@ -138,7 +138,7 @@
       <guid>5b4770fe-35f2-49d1-aa13-fa1f189dd0ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission-FolderOperations-Topmenuicons</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobSubmission-FolderOperations-Topmenuicons</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dd73495e-5624-4a23-9806-657e63bff286</id>
@@ -215,7 +215,7 @@
       <guid>4dc4abda-ffae-474b-8b30-657098409991</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission_Helpbox_Disabled</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobSubmission_Helpbox_Disabled</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -341,7 +341,7 @@
       <guid>22fde961-5a7d-4c8d-acf8-8ec4b585ad13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobSubmission/JobSubmission_Helpbox_Enabled</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobSubmission_Helpbox_Enabled</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

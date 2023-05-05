@@ -537,4 +537,35 @@
          <variableId>bc913d2d-7bc7-4ca8-a5ec-62e6669bdb3e</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>b343cf64-59cb-478e-b7d7-197d3d3f3f72</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/JobSubmission/JobSubmission-NavigatingPreviousFolder</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>91eeea77-0135-448f-8089-ed42cb63d23d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>49b64022-8afd-42b1-95c6-b05be9bece94</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a4159cb7-03c4-41d9-b199-73357b3822db</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bd968dd8-ccc8-4734-bfaa-6318ad834c85</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -15,7 +15,7 @@ import com.relevantcodes.extentreports.LogStatus as LogStatus
 import internal.GlobalVariable as GlobalVariable
 
 /*
-WebUI.callTestCase(findTestCase('Generic/Login'), [('username') : GlobalVariable.G_AdminUser, ('password') : GlobalVariable.G_AdminPasswd],
+WebUI.callTestCase(findTestCase('XRepeated_TC/Login'), [('username') : GlobalVariable.G_AdminUser, ('password') : GlobalVariable.G_AdminPasswd],
 FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
@@ -574,7 +574,7 @@ try {
     }
     
     if (GlobalVariable.G_Browser == 'IE') {
-        WebUI.callTestCase(findTestCase('Generic/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
+        WebUI.callTestCase(findTestCase('XRepeated_TC/Logout'), [:], FailureHandling.STOP_ON_FAILURE)
     }
 }
 catch (Exception ex) {

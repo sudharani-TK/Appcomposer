@@ -15,7 +15,7 @@
       <guid>35c6e4b8-35af-4402-ae99-76a4db7f4a9b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/ProfileModule/PreReq/Pre-Req-Script-FileOps</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/PreReq_profiles/Pre-Req-Script-FileOps</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -256,7 +256,7 @@
       <guid>1a6c3a9d-3649-4f20-b590-f44e2807874f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/FilesModule/FileViewerOperations - DoubleClick</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/FileViewerOperations - DoubleClick</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bd2f2c0c-a674-4467-815f-5bef8323db15</id>

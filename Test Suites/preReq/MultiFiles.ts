@@ -15,7 +15,7 @@
       <guid>13abbc87-edb8-4051-a18b-b63534df955e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/MultiFileFolder/MultiFiles_PreReq</testCaseId>
+      <testCaseId>Test Cases/MultiFileFolder/MultiFilesFolder_PreReq</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

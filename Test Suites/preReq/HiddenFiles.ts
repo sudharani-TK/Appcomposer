@@ -15,7 +15,7 @@
       <guid>f98879c9-852d-44b7-ba34-886f0f1aaa36</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/HiddenFile/Hidden_PreReq</testCaseId>
+      <testCaseId>Test Cases/HiddenFilesandFolders/Hidden_PreReq</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

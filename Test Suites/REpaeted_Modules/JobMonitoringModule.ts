@@ -442,7 +442,7 @@
       <guid>06b139a1-d4f3-4cb8-ba25-7de98455d3e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/JobMonitoring/JobActions_ForJobStates_Array</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/JobActions_ForJobStates_Array</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4ea1030d-6156-4f24-a915-1de9d1fb6cd7</id>

@@ -34,7 +34,7 @@
       <guid>e4d0bab3-eaa0-40e3-a72f-3df2a2e539df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/2019.3/AltairAccesslogo_persistence_enabled</testCaseId>
+      <testCaseId>Test Cases/XRepeated_TC/AltairAccesslogo_persistence_enabled</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
