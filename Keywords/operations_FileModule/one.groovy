@@ -29,9 +29,9 @@ public class one {
 		WebUI.delay(2)
 
 
-		TestObject newFolderObjLevel2 = WebUI.modifyObjectProperty(findTestObject('FilesPage/FolderRowItem_ListView'), 'title','equals', 'ListView', true)
+		//TestObject newFolderObjLevel2 = WebUI.modifyObjectProperty(findTestObject('FilesPage/FolderRowItem_ListView'), 'title','equals', 'ListView', true)
 
-		TestObject newFolderObjToDelete = WebUI.modifyObjectProperty(findTestObject('FilesPage/FolderRowItem_ListView'), 'title','equals', 'ListViewCut', true)
+		//TestObject newFolderObjToDelete = WebUI.modifyObjectProperty(findTestObject('FilesPage/FolderRowItem_ListView'), 'title','equals', 'ListViewCut', true)
 
 
 		switch (Operation) {
@@ -41,7 +41,7 @@ public class one {
 
 			case 'Delete':
 
-				WebUI.doubleClick(newFolderObjToDelete)
+			//	WebUI.doubleClick(newFolderObjToDelete)
 				extentTest.log(LogStatus.PASS, 'Naigated to ListViewCut folder')
 				WebUI.delay(3)
 				WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
@@ -74,7 +74,7 @@ public class one {
 				break
 
 			case 'Download':
-				WebUI.doubleClick(newFolderObjLevel2)
+			//	WebUI.doubleClick(newFolderObjLevel2)
 				WebUI.delay(1)
 				WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
 				extentTest.log(LogStatus.PASS, ' Click on select all ')
@@ -104,7 +104,7 @@ public class one {
 
 			case 'New File':
 
-				WebUI.doubleClick(newFolderObjLevel2)
+			//	WebUI.doubleClick(newFolderObjLevel2)
 				WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
 				extentTest.log(LogStatus.PASS, ' Click on select all ')
 				WebUI.rightClick(findTestObject('JobMonitoringPage/RowItem_JobdDeails'))

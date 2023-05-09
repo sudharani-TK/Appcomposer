@@ -32,8 +32,8 @@ public class four {
 
 			case 'Delete':
 
-				WebUI.doubleClick(findTestObject('JobMonitoringPage/ListView'))
-				extentTest.log(LogStatus.PASS, 'Double click on List view folder')
+			//	WebUI.doubleClick(findTestObject('JobMonitoringPage/ListView'))
+			//	extentTest.log(LogStatus.PASS, 'Double click on List view folder')
 				WebUI.delay(3)
 				WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
 				extentTest.log(LogStatus.PASS, ' Click on select all ')
@@ -54,8 +54,8 @@ public class four {
 				break
 
 			case 'Download':
-				WebUI.doubleClick(findTestObject('JobMonitoringPage/ListView'))
-				extentTest.log(LogStatus.PASS, 'Double click on List view folder')
+			//	WebUI.doubleClick(findTestObject('JobMonitoringPage/ListView'))
+			//	extentTest.log(LogStatus.PASS, 'Double click on List view folder')
 				WebUI.delay(3)
 				WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
 				extentTest.log(LogStatus.PASS, ' Click on select all ')
@@ -81,8 +81,8 @@ public class four {
 
 			case 'Resubmit':
 
-				WebUI.doubleClick(findTestObject('JobMonitoringPage/ListView'))
-				extentTest.log(LogStatus.PASS, 'Double click on List view folder')
+			//	WebUI.doubleClick(findTestObject('JobMonitoringPage/ListView'))
+			//	extentTest.log(LogStatus.PASS, 'Double click on List view folder')
 				WebUI.delay(3)
 				WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
 				extentTest.log(LogStatus.PASS, ' Click on select all ')
