@@ -143,7 +143,7 @@ public class multifileOps {
 
 				(new operations_FileModule.notifications()).getNotifications(msg,extentTest)
 
-		
+
 				String myXpath=null;
 				String myText=null;
 				String item=null
@@ -353,7 +353,7 @@ public class multifileOps {
 
 				if (namesOfFiles.contains('ToDownload.txt')) {
 					println('success')
-					} else {
+				} else {
 					println('fail')
 				}
 

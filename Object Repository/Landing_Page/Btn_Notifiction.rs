@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>UploadFileBtn</name>
+   <name>Btn_Notifiction</name>
    <tag></tag>
-   <elementGuidId>61faa9ce-01b8-47b1-98c5-7340fa6b9b5f</elementGuidId>
+   <elementGuidId>53eba6ba-26bf-431a-86be-e43bd31afb06</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='file_upload_element_fileview']</value>
+         <value>//span[@id = 'app_notify_menu' and @title = 'Notifications']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

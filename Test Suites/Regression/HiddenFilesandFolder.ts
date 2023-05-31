@@ -20,8 +20,8 @@
          <combinationType>ONE</combinationType>
          <id>fc14372e-0202-46f4-93b4-748231529938</id>
          <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>11-20</value>
+            <iterationType>ALL</iterationType>
+            <value>1-10</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataHiddenFiles</testDataId>
       </testDataLink>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Uploadbtn_Folder</name>
+   <tag></tag>
+   <elementGuidId>e603519f-4442-4cde-b44f-249474b8825a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id=&quot;upload_folder_button_parent&quot;]//div[@id=&quot;dir_folder_menu&quot;]//span[contains(text(),&quot;Folder&quot;)]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

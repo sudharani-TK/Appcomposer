@@ -6,12 +6,12 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'rohini'</initValue>
+      <initValue>'pbsworks'</initValue>
       <name>G_userName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'rohini'</initValue>
+      <initValue>'pbsworks'</initValue>
       <name>G_Password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Chrome'</initValue>
+      <initValue>'Firefox'</initValue>
       <name>G_Browser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://10.75.36.105:4443/pbsworks'</initValue>
+      <initValue>'https://172.16.80.49:4443/pbsworks'</initValue>
       <name>G_BaseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

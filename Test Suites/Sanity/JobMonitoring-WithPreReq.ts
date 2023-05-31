@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>09316c6a-4551-4de4-894d-ce7fec709bad</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/XRepeated_TC/PreReq_profiles/Pre-Req-Script-For-JobMonitoring-Ops</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -57,7 +57,7 @@
    <testCaseLink>
       <guid>2b6856f4-a9e7-4bc3-819c-a82e923b0b35</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/XRepeated_TC/PreReq_profiles/Pre-Req-Script-For-JobMonitoring-AllJobs</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -106,8 +106,8 @@
          <combinationType>ONE</combinationType>
          <id>de3de7c4-8a67-4b96-9c3f-44b6f7372061</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>SPECIFIC</iterationType>
+            <value>11, 15,1-10,12-14,16</value>
          </iterationEntity>
          <testDataId>Data Files/Sanity/JobAction</testDataId>
       </testDataLink>
@@ -232,7 +232,7 @@
          <combinationType>ONE</combinationType>
          <id>c527aaac-1585-4a91-9518-435233c53e79</id>
          <iterationEntity>
-            <iterationType>RANGE</iterationType>
+            <iterationType>SPECIFIC</iterationType>
             <value>1-15</value>
          </iterationEntity>
          <testDataId>Data Files/Regression/TestDataForJobDetails</testDataId>

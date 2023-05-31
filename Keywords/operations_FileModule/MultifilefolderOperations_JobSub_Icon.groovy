@@ -36,10 +36,10 @@ public class MultifilefolderOperations_JobSub_Icon {
 
 			case 'Delete':
 
-			WebUI.doubleClick(findTestObject('JobMonitoringPage/MultiFileFolder'))
-			extentTest.log(LogStatus.PASS, 'Double click on MultiFileFolder folder')
+				WebUI.doubleClick(findTestObject('JobMonitoringPage/MultiFileFolder'))
+				extentTest.log(LogStatus.PASS, 'Double click on MultiFileFolder folder')
 				WebUI.delay(3)
-				
+
 				WebUI.doubleClick(findTestObject('JobMonitoringPage/MultiFileFolder'))
 				extentTest.log(LogStatus.PASS, 'Double click on MultiFileFolder folder')
 				WebUI.delay(3)
@@ -63,10 +63,10 @@ public class MultifilefolderOperations_JobSub_Icon {
 				break
 
 			case 'Download':
-			WebUI.doubleClick(findTestObject('JobMonitoringPage/MultiFileFolder'))
-			extentTest.log(LogStatus.PASS, 'Double click on MultiFileFolder folder')
+				WebUI.doubleClick(findTestObject('JobMonitoringPage/MultiFileFolder'))
+				extentTest.log(LogStatus.PASS, 'Double click on MultiFileFolder folder')
 				WebUI.delay(3)
-				
+
 				WebUI.doubleClick(findTestObject('JobMonitoringPage/MultiFileFolder'))
 				extentTest.log(LogStatus.PASS, 'Double click on MultiFileFolder folder')
 				WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
@@ -93,15 +93,15 @@ public class MultifilefolderOperations_JobSub_Icon {
 
 			case 'Resubmit':
 
-			WebUI.doubleClick(findTestObject('JobMonitoringPage/MultiFileFolder'))
-			extentTest.log(LogStatus.PASS, 'Double click on MultiFileFolder folder')
+				WebUI.doubleClick(findTestObject('JobMonitoringPage/MultiFileFolder'))
+				extentTest.log(LogStatus.PASS, 'Double click on MultiFileFolder folder')
 				WebUI.delay(3)
-				
+
 				WebUI.doubleClick(findTestObject('JobMonitoringPage/MultiFileFolder'))
 				extentTest.log(LogStatus.PASS, 'Double click on MultiFileFolder folder')
 				WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
 				extentTest.log(LogStatus.PASS, ' Click on select all ')
-				
+
 
 				TestObject newFileOp=WebUI.modifyObjectProperty(findTestObject('Object Repository/JobMonitoringPage/Resubmit_Icon'), 'text', 'equals', Operation, true)
 				WebUI.click(newFileOp)

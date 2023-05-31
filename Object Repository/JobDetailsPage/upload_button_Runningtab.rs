@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>upload_button_Runningtab</name>
+   <tag></tag>
+   <elementGuidId>f6a3de1c-c6ac-44c7-8979-023ed70a0a60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@id = 'upload_folder_button_parent_running']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f02664ea-ac25-4d0e-ba97-4bccae786bf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>upload_folder_button_parent_running</value>
+      <webElementGuid>3314bfbb-17a1-4b1d-b0c4-a509881f381d</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

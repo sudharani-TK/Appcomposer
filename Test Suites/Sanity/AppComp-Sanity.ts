@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7c901d33-1ceb-4e85-8171-fbb84e26639d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AppComposer/App_Composer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -66,7 +66,7 @@
    <testCaseLink>
       <guid>9a54f18b-142c-4bba-814b-2456d991b689</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/AppComposer/App_Composer-New Testcases</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

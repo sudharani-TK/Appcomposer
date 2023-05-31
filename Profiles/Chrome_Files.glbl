@@ -21,17 +21,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Chrome'</initValue>
+      <initValue>'Firefox'</initValue>
       <name>G_Browser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://172.16.80.36:4443/pbsworks/'</initValue>
+      <initValue>'https://10.75.36.105:4443/pbsworks/'</initValue>
       <name>G_BaseUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Chrome'</initValue>
+      <initValue>'Firefox'</initValue>
       <name>G_ReportName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

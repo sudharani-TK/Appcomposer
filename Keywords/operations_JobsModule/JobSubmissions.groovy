@@ -1,7 +1,6 @@
 package operations_JobsModule
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import org.openqa.selenium.By
 import org.openqa.selenium.Keys
 import org.openqa.selenium.WebDriver
@@ -13,8 +12,8 @@ import com.kms.katalon.core.configuration.RunConfiguration
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.relevantcodes.extentreports.LogStatus
-
-import internal.GlobalVariable
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
 
 public class JobSubmissions {
 
@@ -119,12 +118,7 @@ public class JobSubmissions {
 			shortCutFileLocation = 'C:/stage/ShortCutFiles'
 		}
 		else {
-			if(GlobalVariable.G_Platform.equals('Gird')) {
-				shortCutFileLocation ='/gridusers/'+GlobalVariable.G_userName+'/ShortCutFiles'
-			}
-			else {
-				shortCutFileLocation = '/stage/'+GlobalVariable.G_userName+'/ShortCutFiles'
-			}
+			shortCutFileLocation = '/stage/'+GlobalVariable.G_userName+'/ShortCutFiles'
 		}
 		def folderLocation=GlobalVariable.G_userName+'-ToSetOutPutDir'
 
@@ -143,13 +137,13 @@ public class JobSubmissions {
 				else {
 					WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
 					//def ele = WebUI.verifyElementClickable(findTestObject('Object Repository/FilesPage/FilesDelete_img'))
-					def ele = WebUI.verifyElementClickable(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_RFB'))
+					def ele = WebUI.verifyElementClickable(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_Fileop'))
 					println('===============================')
 					println(ele)
 					println('===============================')
 					WebUI.delay(2)
 					//	WebUI.click(findTestObject('/FilesPage/FilesDelete_img'))
-					WebUI.click(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_RFB'))
+					WebUI.click(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_Fileop'))
 					WebUI.delay(2)
 					WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 				}
@@ -200,16 +194,17 @@ public class JobSubmissions {
 				WebUI.setText(findTestObject('Object Repository/FilesPage/textBx_FilePath'), location)
 				WebUI.sendKeys(findTestObject('Object Repository/FilesPage/textBx_FilePath'), Keys.chord(Keys.ENTER))
 				extentTest.log(LogStatus.PASS, 'Navigated to '+ location +'in RFB ')
-				def FolderEmptytext = (new customWait.WaitForElement()).WaitForelementPresent(findTestObject('Object Repository/FilesPage/Label_FolderEmpty'), 20,extentTest,'EmptyLabel')
+			//	def FolderEmptytext = (new customWait.WaitForElement()).WaitForelementPresent(findTestObject('Object Repository/FilesPage/Label_FolderEmpty'), 20,extentTest,'EmptyLabel')
+				def FolderEmptytext= WebUI.waitForElementPresent(findTestObject('Object Repository/FilesPage/Label_FolderEmpty'),10, FailureHandling.CONTINUE_ON_FAILURE)
 				println(FolderEmptytext)
 				if (FolderEmptytext) {
 					println('FolderEmptytext')
 				}
 				else {
 					WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
-					def ele = WebUI.verifyElementClickable(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_RFB'))
+					def ele = WebUI.verifyElementClickable(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_Fileop'))
 					println(ele)
-					WebUI.click(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_RFB'))
+					WebUI.click(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_Fileop'))
 					WebUI.delay(2)
 					WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 				}
@@ -219,7 +214,7 @@ public class JobSubmissions {
 				WebUI.uploadFile(findTestObject('FilesPage/UploadFileBtn'), newFP)
 				def f2 = RunConfiguration.getProjectDir() + '/Upload/JobFiles/CUBE_0001.rad'
 				def p2 = (new generateFilePath.filePath()).getFilePath(f2)
-				WebUI.uploadFile(findTestObject('Object Repository/JobSubmissionForm/LocalFileUploadElement'), p2)
+				WebUI.uploadFile(findTestObject('FilesPage/UploadFileBtn'), p2)
 
 				extentTest.log(LogStatus.PASS, 'Uploading File to RFB - '+InputFile)
 				def FileUploadClose = (new customWait.WaitForElement()).WaitForelementPresent(findTestObject('Object Repository/JobSubmissionForm/Icon_Close_UploadNotification'), 20,extentTest,'Upload panel close icon')
@@ -246,9 +241,9 @@ public class JobSubmissions {
 				}
 				else {
 					WebUI.click(findTestObject('Object Repository/FilesPage/CheckBox_SelectAll-JS-RFB'))
-					def ele = WebUI.verifyElementClickable(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_RFB'))
+					def ele = WebUI.verifyElementClickable(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_Fileop'))
 					println(ele)
-					WebUI.click(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_RFB'))
+					WebUI.click(findTestObject('/JobSubmissionForm/Icon_DeleteIcon_Fileop'))
 					WebUI.delay(2)
 					WebUI.click(findTestObject('GenericObjects/btn_Yes'))
 				}

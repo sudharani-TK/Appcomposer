@@ -108,7 +108,7 @@ public class MultifolderOperations_JobSub_Icon {
 				extentTest.log(LogStatus.PASS, 'Notification Generated')
 
 				GlobalVariable.G_JobID=(new operations_JobsModule.GetJobRowDetails()).getJobID(jobText)
-				
+
 				extentTest.log(LogStatus.PASS, 'Job ID - ' + GlobalVariable.G_JobID)
 
 				extentTest.log(LogStatus.PASS, 'Job Submission Done for - ' + TestCaseName)

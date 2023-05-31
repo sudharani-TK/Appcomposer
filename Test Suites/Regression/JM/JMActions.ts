@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7a068f96-264e-4936-8024-5ce15650b06b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/Jobdetailspage_context menu</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -54,7 +54,7 @@
    <testCaseLink>
       <guid>421dce72-0760-449e-b200-d4d706434f39</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/Jobdetailspage_topmenu_icons</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -94,7 +94,7 @@
    <testCaseLink>
       <guid>dfa17099-ee8a-472c-b93a-4583fd2f2081</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobActions_ForJobStates</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -134,7 +134,7 @@
    <testCaseLink>
       <guid>130367d8-1902-44eb-962a-bd44dc2a32ee</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/JobActions_ForJobStates -Topmenu_Icon</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -220,7 +220,7 @@
    <testCaseLink>
       <guid>21917e61-3655-436f-95f5-0fec759d4214</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/JobMonitoring/EditRunningFile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -318,7 +318,7 @@
    <testCaseLink>
       <guid>1fbe422d-68fd-480f-8731-b04723850cd0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/RunningFolder_jobspage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -349,7 +349,7 @@
    <testCaseLink>
       <guid>6522deb2-0d6e-4da2-9f7e-23034284a15a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/Uploadfile_replace_existingfile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -368,7 +368,7 @@
    <testCaseLink>
       <guid>c9362ffe-9047-4b72-975f-d2889aa28c66</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/Uploadfile_uncompress</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -387,7 +387,7 @@
    <testCaseLink>
       <guid>a748ba03-8638-449d-8830-c4f3186790ac</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Upload/Uploadfile_verify_unzipmessage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

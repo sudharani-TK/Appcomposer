@@ -22,8 +22,8 @@ public class executeJobAction_JobDetails_Topmenu {
 		switch (Action) {
 			case 'Download':
 			case 'job_detail_download_btn':
-			Action='job_detail_download_btn'
-		
+				Action='job_detail_download_btn'
+
 				println ("Form job actions - "+Action)
 				TestObject newJobAction = WebUI.modifyObjectProperty(findTestObject('JobMonitoringPage/Jobdetails_topmenu'),
 						'id', 'equals', Action, true)
